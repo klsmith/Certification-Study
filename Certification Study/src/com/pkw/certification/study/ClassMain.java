@@ -1,4 +1,5 @@
 package com.pkw.certification.study;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,16 +25,20 @@ public class ClassMain {
 
 			System.out.println("questionList(" + i + ") : ");
 
-			System.out.println("Question Number: " + questionList.get(i).getQuestionNumber());
-			System.out.println("Question: " + questionList.get(i).getQuestion());
+			System.out.println("Question Number: "
+					+ questionList.get(i).getQuestionNumber());
+			System.out
+					.println("Question: " + questionList.get(i).getQuestion());
 
 			for (int j = 0; j < questionList.get(i).getPossibleAnswers().size(); j++) {
 
-				System.out.println("Possible Answers: " + questionList.get(i).getPossibleAnswers().get(j));
+				System.out.println("Possible Answers: "
+						+ questionList.get(i).getPossibleAnswers().get(j));
 
 			}
 
-			System.out.println("Correct Asnwer: " + questionList.get(i).getCorrectAnswer());
+			System.out.println("Correct Asnwer: "
+					+ questionList.get(i).getCorrectAnswer());
 
 			System.out.println("");
 

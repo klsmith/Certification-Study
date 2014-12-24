@@ -1,4 +1,5 @@
 package com.pkw.certification.study.model;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -43,7 +44,8 @@ public abstract class QuestionImporter {
 
 				else if (isExplanation(line) == true) {
 
-					ClassMain.questionList.add(new Question(tmpQuestionNumber, tmpQuestion, tmpCorrectAnswer, tmpPossibleAnswers));
+					ClassMain.questionList.add(new Question(tmpQuestionNumber,
+							tmpQuestion, tmpCorrectAnswer, tmpPossibleAnswers));
 
 					tmpPossibleAnswers.clear();
 
