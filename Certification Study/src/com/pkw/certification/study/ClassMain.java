@@ -1,7 +1,12 @@
+package com.pkw.certification.study;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JFrame;
+
+import com.pkw.certification.study.model.Question;
+import com.pkw.certification.study.model.QuestionImporter;
+import com.pkw.certification.study.view.FullViewPanel;
 
 public class ClassMain {
 

@@ -1,3 +1,4 @@
+package com.pkw.certification.study.view;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -9,6 +10,8 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
+
+import com.pkw.certification.study.ClassMain;
 
 public class QuestionViewerPanel extends JPanel {
 

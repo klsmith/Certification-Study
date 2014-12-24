@@ -1,3 +1,4 @@
+package com.pkw.certification.study.model;
 import java.util.ArrayList;
 import java.util.List;
 
