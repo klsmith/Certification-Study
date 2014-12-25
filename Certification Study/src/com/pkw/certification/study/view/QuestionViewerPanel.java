@@ -15,7 +15,6 @@ import javax.swing.JRadioButton;
 import com.pkw.certification.study.ClassMain;
 
 public class QuestionViewerPanel extends JPanel {
-
 	private static final long serialVersionUID = 4403470480656476440L;
 
 	public static List<JRadioButton> jrbList = new ArrayList<JRadioButton>();

@@ -6,7 +6,6 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 public class FullViewPanel extends JPanel {
-
 	private static final long serialVersionUID = -5403092996763971386L;
 
 	public static QuestionViewerPanel questionViewerPanel = new QuestionViewerPanel();
