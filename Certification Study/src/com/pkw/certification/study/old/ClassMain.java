@@ -1,15 +1,15 @@
-package com.pkw.certification.study;
+package com.pkw.certification.study.old;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JFrame;
 
-import com.pkw.certification.study.model.Question;
-import com.pkw.certification.study.model.QuestionImporter;
-import com.pkw.certification.study.view.FullViewPanel;
+import com.pkw.certification.study.old.model.Question;
+import com.pkw.certification.study.old.model.QuestionImporter;
+import com.pkw.certification.study.old.view.FullViewPanel;
 
-public class Application {
+public class ClassMain {
 
 	public static int selectedQuestion = 0;
 	public static List<Question> questionList = new ArrayList<Question>();;

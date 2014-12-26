@@ -1,4 +1,4 @@
-package com.pkw.certification.study.model;
+package com.pkw.certification.study.old.model;
 
 import java.util.ArrayList;
 import java.util.List;

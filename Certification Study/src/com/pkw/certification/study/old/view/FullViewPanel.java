@@ -1,4 +1,4 @@
-package com.pkw.certification.study.view;
+package com.pkw.certification.study.old.view;
 
 import java.awt.BorderLayout;
 

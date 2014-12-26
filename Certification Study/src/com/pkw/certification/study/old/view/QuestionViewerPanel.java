@@ -1,4 +1,4 @@
-package com.pkw.certification.study.view;
+package com.pkw.certification.study.old.view;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -12,7 +12,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JRadioButton;
 
-import com.pkw.certification.study.Application;
+import com.pkw.certification.study.old.ClassMain;
 
 public class QuestionViewerPanel extends JPanel {
 	private static final long serialVersionUID = 4403470480656476440L;
@@ -20,19 +20,20 @@ public class QuestionViewerPanel extends JPanel {
 	public static List<JRadioButton> jrbList = new ArrayList<JRadioButton>();
 
 	public QuestionViewerPanel() {
+		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		updatePanel();
 	}
 
 	public void updatePanel() {
-		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-		JLabel lblQuestion = new JLabel(Application.questionList.get(
-				Application.selectedQuestion).getQuestion());
+		removeAll();
+		JLabel lblQuestion = new JLabel(ClassMain.questionList.get(
+				ClassMain.selectedQuestion).getQuestion());
 		add(lblQuestion);
 		ButtonGroup group = new ButtonGroup();
-		for (int i = 0; i < Application.questionList
-				.get(Application.selectedQuestion).getPossibleAnswers().size(); i++) {
-			jrbList.add(new JRadioButton(Application.questionList
-					.get(Application.selectedQuestion).getPossibleAnswers()
+		for (int i = 0; i < ClassMain.questionList
+				.get(ClassMain.selectedQuestion).getPossibleAnswers().size(); i++) {
+			jrbList.add(new JRadioButton(ClassMain.questionList
+					.get(ClassMain.selectedQuestion).getPossibleAnswers()
 					.get(i)));
 			group.add(jrbList.get(i));
 			add(jrbList.get(i));
@@ -81,8 +82,8 @@ public class QuestionViewerPanel extends JPanel {
 			}
 		}
 
-		if (jrbList.get(selectedAnswer).getText().charAt(0) == Application.questionList
-				.get(Application.selectedQuestion).getCorrectAnswer().charAt(8)) {
+		if (jrbList.get(selectedAnswer).getText().charAt(0) == ClassMain.questionList
+				.get(ClassMain.selectedQuestion).getCorrectAnswer().charAt(8)) {
 			returnValue = true;
 		}
 		return returnValue;

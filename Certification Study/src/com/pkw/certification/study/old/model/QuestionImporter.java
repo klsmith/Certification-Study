@@ -1,4 +1,4 @@
-package com.pkw.certification.study.model;
+package com.pkw.certification.study.old.model;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pkw.certification.study.Application;
+import com.pkw.certification.study.old.ClassMain;
 
 public abstract class QuestionImporter {
 
@@ -26,7 +26,7 @@ public abstract class QuestionImporter {
 				} else if (isPossibleAnswer(line) == true) {
 					tmpPossibleAnswers.add(line);
 				} else if (isExplanation(line) == true) {
-					Application.questionList.add(new Question(tmpQuestionNumber,
+					ClassMain.questionList.add(new Question(tmpQuestionNumber,
 							tmpQuestion, tmpCorrectAnswer, tmpPossibleAnswers));
 					tmpPossibleAnswers.clear();
 				} else if (isCorrectAnswer(line) == true) {
