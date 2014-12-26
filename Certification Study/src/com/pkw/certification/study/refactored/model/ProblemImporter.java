@@ -1,5 +1,10 @@
 package com.pkw.certification.study.refactored.model;
 
+import static com.pkw.certification.study.refactored.model.Answer.Letter.A;
+import static com.pkw.certification.study.refactored.model.Answer.Letter.B;
+import static com.pkw.certification.study.refactored.model.Answer.Letter.C;
+import static com.pkw.certification.study.refactored.model.Answer.Letter.D;
+
 public class ProblemImporter {
 
 	public static ProblemImporter createWithPath(String path) {
@@ -13,11 +18,11 @@ public class ProblemImporter {
 	public Problem importQuestion() {
 		return Problem.Builder.create()//
 				.question("Which of the following is a public IP addres?")//
-				.answerA("10.0.0.1")//
-				.answerB("62.10.1.1")//
-				.answerC("172.16.0.1")//
-				.answerD("192.168.1.1")//
-				.correctAnswer("B")//
+				.addAnswer(Answer.createWith(A, "10.0.0.1"))//
+				.addAnswer(Answer.createWith(B, "62.10.1.1"))//
+				.addAnswer(Answer.createWith(C, "172.16.0.1"))//
+				.addAnswer(Answer.createWith(D, "192.168.1.1"))//
+				.correctAnswer(B)//
 				.explanation("")//
 				.build();
 	}

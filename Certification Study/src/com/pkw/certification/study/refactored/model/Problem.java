@@ -6,12 +6,12 @@ import java.util.Map;
 public class Problem {
 
 	private String question;
-	private Map<String, String> answerMap;
-	private String correctAnswer;
+	private Map<Answer.Letter, Answer> answerMap;
+	private Answer.Letter correctAnswer;
 	private String explanation;
 
-	private Problem(String question, Map<String, String> answerMap,
-			String correctAnswer, String explanation) {
+	private Problem(String question, Map<Answer.Letter, Answer> answerMap,
+			Answer.Letter correctAnswer, String explanation) {
 		this.question = question;
 		this.answerMap = answerMap;
 		this.correctAnswer = correctAnswer;
@@ -23,9 +23,9 @@ public class Problem {
 				explanation);
 	}
 
-	private Map<String, String> dusplicateAnswerMap() {
-		Map<String, String> dusplicateAnswerMap = new HashMap<String, String>();
-		for (String key : answerMap.keySet()) {
+	private Map<Answer.Letter, Answer> dusplicateAnswerMap() {
+		Map<Answer.Letter, Answer> dusplicateAnswerMap = new HashMap<Answer.Letter, Answer>();
+		for (Answer.Letter key : answerMap.keySet()) {
 			dusplicateAnswerMap.put(key, answerMap.get(key));
 		}
 		return dusplicateAnswerMap;
@@ -66,8 +66,8 @@ public class Problem {
 	public static class Builder {
 
 		private String question;
-		private Map<String, String> answerMap;
-		private String correctAnswer;
+		private Map<Answer.Letter, Answer> answerMap;
+		private Answer.Letter correctAnswer;
 		private String explanation;
 
 		public static Builder create() {
@@ -76,8 +76,8 @@ public class Problem {
 
 		private Builder() {
 			question = "";
-			answerMap = new HashMap<String, String>();
-			correctAnswer = "";
+			answerMap = new HashMap<Answer.Letter, Answer>();
+			correctAnswer = null;
 			explanation = "";
 		}
 
@@ -86,28 +86,13 @@ public class Problem {
 			return this;
 		}
 
-		public Builder answerA(String answer) {
-			answerMap.put("A", answer);
+		public Builder addAnswer(Answer answer) {
+			answerMap.put(answer.letter(), answer);
 			return this;
 		}
 
-		public Builder answerB(String answer) {
-			answerMap.put("B", answer);
-			return this;
-		}
-
-		public Builder answerC(String answer) {
-			answerMap.put("C", answer);
-			return this;
-		}
-
-		public Builder answerD(String answer) {
-			answerMap.put("D", answer);
-			return this;
-		}
-
-		public Builder correctAnswer(String answer) {
-			this.correctAnswer = answer;
+		public Builder correctAnswer(Answer.Letter correctAnswer) {
+			this.correctAnswer = correctAnswer;
 			return this;
 		}
 
