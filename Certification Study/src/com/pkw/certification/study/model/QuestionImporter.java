@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pkw.certification.study.ClassMain;
+import com.pkw.certification.study.Application;
 
 public abstract class QuestionImporter {
 
@@ -26,7 +26,7 @@ public abstract class QuestionImporter {
 				} else if (isPossibleAnswer(line) == true) {
 					tmpPossibleAnswers.add(line);
 				} else if (isExplanation(line) == true) {
-					ClassMain.questionList.add(new Question(tmpQuestionNumber,
+					Application.questionList.add(new Question(tmpQuestionNumber,
 							tmpQuestion, tmpCorrectAnswer, tmpPossibleAnswers));
 					tmpPossibleAnswers.clear();
 				} else if (isCorrectAnswer(line) == true) {

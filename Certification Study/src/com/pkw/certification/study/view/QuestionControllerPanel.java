@@ -8,35 +8,41 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import com.pkw.certification.study.ClassMain;
+import com.pkw.certification.study.Application;
 
 public class QuestionControllerPanel extends JPanel {
 	private static final long serialVersionUID = -8992276253798344431L;
 
-	public QuestionControllerPanel() {
+	public static QuestionControllerPanel createIn(FullViewPanel mainPanel) {
+		return new QuestionControllerPanel(mainPanel);
+	}
+
+	private QuestionControllerPanel(final FullViewPanel mainPanel) {
 		setLayout(new FlowLayout());
 		JButton btnPrevious = new JButton("Previous");
 		btnPrevious.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				ClassMain.selectedQuestion--;
-				if (ClassMain.selectedQuestion < 0) {
-					ClassMain.selectedQuestion = ClassMain.questionList.size() - 1;
+				Application.selectedQuestion--;
+				if (Application.selectedQuestion < 0) {
+					Application.selectedQuestion = Application.questionList
+							.size() - 1;
 				}
-				FullViewPanel.questionUpdate();
+				mainPanel.update();
 			}
 		});
-		JLabel lblQuestion = new JLabel(ClassMain.questionList.get(
-				ClassMain.selectedQuestion).getQuestionNumber());
+		JLabel lblQuestion = new JLabel(Application.questionList.get(
+				Application.selectedQuestion).getQuestionNumber());
 		JButton btnNext = new JButton("Next");
 		btnNext.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				ClassMain.selectedQuestion++;
-				if (ClassMain.selectedQuestion > ClassMain.questionList.size() - 1) {
-					ClassMain.selectedQuestion = 0;
+				Application.selectedQuestion++;
+				if (Application.selectedQuestion > Application.questionList
+						.size() - 1) {
+					Application.selectedQuestion = 0;
 				}
-				FullViewPanel.questionUpdate();
+				mainPanel.update();
 			}
 		});
 		add(btnPrevious);

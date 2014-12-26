@@ -8,9 +8,14 @@ import javax.swing.border.EmptyBorder;
 public class FullViewPanel extends JPanel {
 	private static final long serialVersionUID = -5403092996763971386L;
 
-	public static QuestionViewerPanel questionViewerPanel = new QuestionViewerPanel();
+	private QuestionViewerPanel questionViewerPanel = new QuestionViewerPanel();
 
-	public FullViewPanel() {
+	public static FullViewPanel create() {
+		return new FullViewPanel();
+	}
+
+	private FullViewPanel() {
+		questionViewerPanel = new QuestionViewerPanel();
 		setup();
 		configurePanels();
 	}
@@ -23,13 +28,11 @@ public class FullViewPanel extends JPanel {
 
 	private void configurePanels() {
 		add(questionViewerPanel, BorderLayout.NORTH);
-		add(new QuestionControllerPanel(), BorderLayout.SOUTH);
+		add(QuestionControllerPanel.createIn(this), BorderLayout.SOUTH);
 	}
 
-	public static void questionUpdate() {
-
+	public void update() {
 		questionViewerPanel.updatePanel();
-
 	}
 
 }
