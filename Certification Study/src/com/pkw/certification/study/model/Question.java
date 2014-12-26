@@ -6,7 +6,8 @@ import java.util.List;
 public class Question {
 
 	private String questionNumber;
-	private String question, correctAnswer;
+	private String question;
+	private String correctAnswer;
 	private List<String> possibleAnswers;
 
 	public Question(String questionNumber, String question,
@@ -31,5 +32,16 @@ public class Question {
 
 	public List<String> getPossibleAnswers() {
 		return possibleAnswers;
+	}
+
+	@Override
+	public String toString() {
+		String result = "Question Number: " + questionNumber + "\n";
+		result += "Question: " + question + "\n";
+		for (String answer : possibleAnswers) {
+			result += "Possible Answer: " + answer + "\n";
+		}
+		result += "Correct Asnwer: " + correctAnswer + "\n\n";
+		return result;
 	}
 }
