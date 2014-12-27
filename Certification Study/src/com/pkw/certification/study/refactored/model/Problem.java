@@ -3,6 +3,8 @@ package com.pkw.certification.study.refactored.model;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.swing.JPanel;
+
 public class Problem {
 
 	private String question;
@@ -61,6 +63,21 @@ public class Problem {
 		} else {
 			return false;
 		}
+	}
+
+	@Override
+	public String toString() {
+		String result = "Problem: " + question + "\n";
+		for (Answer.Letter letter : answerMap.keySet()) {
+			result += "\t" + letter + ". " + answerMap.get(letter) + "\n";
+		}
+		result += "Correct Answer: " + correctAnswer + "\n";
+		result += "Explanation: " + explanation + "\n\n";
+		return result;
+	}
+
+	public JPanel panel() {
+		return new JPanel();
 	}
 
 	public static class Builder {
