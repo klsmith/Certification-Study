@@ -22,27 +22,27 @@ public class ProblemTester {
 	@Before
 	public void setup() {
 		problem = Problem.Builder.create()//
-				.number(1)//
-				.question("Which of the following is a public IP addres?")//
+				.setNumber(1)//
+				.setQuestion("Which of the following is a public IP addres?")//
 				.addAnswer(Answer.createWith(A, "10.0.0.1"))//
 				.addAnswer(Answer.createWith(B, "62.10.1.1"))//
 				.addAnswer(Answer.createWith(C, "172.16.0.1"))//
 				.addAnswer(Answer.createWith(D, "192.168.1.1"))//
-				.correctAnswer(B)//
-				.explanation("")//
+				.setCorrectAnswer(B)//
+				.setExplanation("")//
 				.build();
 		duplicate = problem.duplicate();
 		differentProblem = Problem.Builder//
 				.create()//
-				.number(2)//
-				.question(
+				.setNumber(2)//
+				.setQuestion(
 						"Which of the following ports MUST be open to connect to a PC using RDP?")//
 				.addAnswer(Answer.createWith(A, "21"))//
 				.addAnswer(Answer.createWith(B, "80"))//
 				.addAnswer(Answer.createWith(C, "443"))//
 				.addAnswer(Answer.createWith(D, "3389"))//
-				.correctAnswer(D)//
-				.explanation("")//
+				.setCorrectAnswer(D)//
+				.setExplanation("")//
 				.build();
 	}
 

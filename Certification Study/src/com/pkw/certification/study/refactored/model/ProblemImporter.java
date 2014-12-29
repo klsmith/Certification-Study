@@ -40,16 +40,16 @@ public class ProblemImporter {
 		Problem.Builder builder = Problem.Builder.create();
 		while (readLine()) {
 			if (isProblemNumber()) {
-				builder.number(getNumber());
+				builder.setNumber(getNumber());
 			} else if (isPossibleAnswer()) {
 				builder.addAnswer(getPossibleAnswer());
 			} else if (isExplanation()) {
-				builder.explanation(getExplanation());
+				builder.setExplanation(getExplanation());
 				problemList.add(builder.build());
 			} else if (isCorrectAnswer()) {
-				builder.correctAnswer(getCorrectAnswer());
+				builder.setCorrectAnswer(getCorrectAnswer());
 			} else {
-				builder.question(currentLine);
+				builder.setQuestion(currentLine);
 			}
 		}
 		return problemList;

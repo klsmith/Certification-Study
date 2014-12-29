@@ -116,12 +116,12 @@ public class Problem implements Comparable<Problem> {
 			explanation = "";
 		}
 
-		public Builder number(int number) {
+		public Builder setNumber(int number) {
 			this.number = number;
 			return this;
 		}
 
-		public Builder question(String question) {
+		public Builder setQuestion(String question) {
 			this.question = question;
 			return this;
 		}
@@ -131,12 +131,12 @@ public class Problem implements Comparable<Problem> {
 			return this;
 		}
 
-		public Builder correctAnswer(Answer.Letter correctAnswer) {
+		public Builder setCorrectAnswer(Answer.Letter correctAnswer) {
 			this.correctAnswer = correctAnswer;
 			return this;
 		}
 
-		public Builder explanation(String explanation) {
+		public Builder setExplanation(String explanation) {
 			this.explanation = explanation;
 			return this;
 		}
