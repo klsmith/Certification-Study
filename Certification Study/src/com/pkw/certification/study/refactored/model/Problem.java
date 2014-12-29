@@ -5,15 +5,18 @@ import java.util.Map;
 
 import javax.swing.JPanel;
 
-public class Problem {
+public class Problem implements Comparable<Problem> {
 
+	private int number;
 	private String question;
 	private Map<Answer.Letter, Answer> answerMap;
 	private Answer.Letter correctAnswer;
 	private String explanation;
 
-	private Problem(String question, Map<Answer.Letter, Answer> answerMap,
-			Answer.Letter correctAnswer, String explanation) {
+	private Problem(int number, String question,
+			Map<Answer.Letter, Answer> answerMap, Answer.Letter correctAnswer,
+			String explanation) {
+		this.number = number;
 		this.question = question;
 		this.answerMap = answerMap;
 		this.correctAnswer = correctAnswer;
@@ -21,8 +24,8 @@ public class Problem {
 	}
 
 	public Problem duplicate() {
-		return new Problem(question, dusplicateAnswerMap(), correctAnswer,
-				explanation);
+		return new Problem(number, question, dusplicateAnswerMap(),
+				correctAnswer, explanation);
 	}
 
 	private Map<Answer.Letter, Answer> dusplicateAnswerMap() {
@@ -31,6 +34,17 @@ public class Problem {
 			dusplicateAnswerMap.put(key, answerMap.get(key));
 		}
 		return dusplicateAnswerMap;
+	}
+
+	@Override
+	public int compareTo(Problem other) {
+		if (number == other.number) {
+			return 0;
+		} else if (number < other.number) {
+			return -1;
+		} else {
+			return 1;
+		}
 	}
 
 	@Override
@@ -43,6 +57,7 @@ public class Problem {
 				+ ((correctAnswer == null) ? 0 : correctAnswer.hashCode());
 		result = prime * result
 				+ ((explanation == null) ? 0 : explanation.hashCode());
+		result = prime * result + number;
 		result = prime * result
 				+ ((question == null) ? 0 : question.hashCode());
 		return result;
@@ -56,7 +71,8 @@ public class Problem {
 			return false;
 		} else if (obj instanceof Problem) {
 			Problem other = (Problem) obj;
-			return (question.equals(other.question))
+			return (number == other.number)
+					&& (question.equals(other.question))
 					&& (answerMap.equals(other.answerMap))
 					&& (correctAnswer.equals(other.correctAnswer))
 					&& (explanation.equals(other.explanation));
@@ -67,12 +83,13 @@ public class Problem {
 
 	@Override
 	public String toString() {
-		String result = "Problem: " + question + "\n";
+		String result = "QUESTION NO: " + number + "\n";
+		result += question + "\n";
 		for (Answer.Letter letter : answerMap.keySet()) {
-			result += "\t" + letter + ". " + answerMap.get(letter) + "\n";
+			result += letter + ". " + answerMap.get(letter).text() + "\n";
 		}
-		result += "Correct Answer: " + correctAnswer + "\n";
-		result += "Explanation: " + explanation + "\n\n";
+		result += "Answer: " + correctAnswer + "\n";
+		result += "Explanation: " + explanation + "\n";
 		return result;
 	}
 
@@ -82,6 +99,7 @@ public class Problem {
 
 	public static class Builder {
 
+		private int number;
 		private String question;
 		private Map<Answer.Letter, Answer> answerMap;
 		private Answer.Letter correctAnswer;
@@ -96,6 +114,11 @@ public class Problem {
 			answerMap = new HashMap<Answer.Letter, Answer>();
 			correctAnswer = null;
 			explanation = "";
+		}
+
+		public Builder number(int number) {
+			this.number = number;
+			return this;
 		}
 
 		public Builder question(String question) {
@@ -119,7 +142,8 @@ public class Problem {
 		}
 
 		public Problem build() {
-			return new Problem(question, answerMap, correctAnswer, explanation);
+			return new Problem(number, question, answerMap, correctAnswer,
+					explanation);
 		}
 	}
 }

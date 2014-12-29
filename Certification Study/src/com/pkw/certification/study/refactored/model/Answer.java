@@ -50,6 +50,16 @@ public class Answer {
 	}
 
 	public static enum Letter {
-		A, B, C, D;
+		ERR, A, B, C, D;
+
+		public static Letter valueOf(char c) {
+			String s = String.valueOf(c).toUpperCase();
+			for (Letter letter : Letter.values()) {
+				if (letter.toString().equals(s)) {
+					return letter;
+				}
+			}
+			return ERR;
+		}
 	}
 }

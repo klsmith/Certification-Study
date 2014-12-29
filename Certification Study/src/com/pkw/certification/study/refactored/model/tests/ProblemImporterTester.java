@@ -6,23 +6,22 @@ import static com.pkw.certification.study.refactored.model.Answer.Letter.C;
 import static com.pkw.certification.study.refactored.model.Answer.Letter.D;
 import static org.junit.Assert.assertTrue;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.junit.Test;
 
 import com.pkw.certification.study.refactored.model.Answer;
 import com.pkw.certification.study.refactored.model.Problem;
 import com.pkw.certification.study.refactored.model.ProblemImporter;
+import com.pkw.certification.study.refactored.model.ProblemList;
 
 public class ProblemImporterTester {
 
 	@Test
 	public void testProblemImport() {
-		List<Problem> imported = ProblemImporter.createWithPath(
-				"assets/test-one-question-input.txt").importProblem();
-		List<Problem> expected = new ArrayList<Problem>();
+		ProblemList imported = ProblemImporter.createWithPath(
+				"assets/test-one-question-input.txt").importProblems();
+		ProblemList expected = ProblemList.create();
 		expected.add(Problem.Builder.create()//
+				.number(1)//
 				.question("Which of the following is a public IP addres?")//
 				.addAnswer(Answer.createWith(A, "10.0.0.1"))//
 				.addAnswer(Answer.createWith(B, "62.10.1.1"))//
@@ -31,15 +30,18 @@ public class ProblemImporterTester {
 				.correctAnswer(B)//
 				.explanation("")//
 				.build());
+		System.out.println(imported.get(0));
+		System.out.println(expected.get(0));
 		assertTrue(imported.equals(expected));
 	}
 
 	@Test
-	void testSecondProblemImport() {
-		List<Problem> imported = ProblemImporter.createWithPath(
-				"assets/test-four-question-input.txt").importProblem();
-		List<Problem> expected = new ArrayList<Problem>();
+	public void testSecondProblemImport() {
+		ProblemList imported = ProblemImporter.createWithPath(
+				"assets/test-four-question-input.txt").importProblems();
+		ProblemList expected = ProblemList.create();
 		expected.add(Problem.Builder.create()//
+				.number(1)//
 				.question("Which of the following is a public IP addres?")//
 				.addAnswer(Answer.createWith(A, "10.0.0.1"))//
 				.addAnswer(Answer.createWith(B, "62.10.1.1"))//
@@ -50,6 +52,7 @@ public class ProblemImporterTester {
 				.build());
 		expected.add(Problem.Builder
 				.create()
+				.number(2)
 				.question(
 						"Which of the following ports MUST be open to connect to a PC using RDP?")//
 				.addAnswer(Answer.createWith(A, "21"))//
@@ -61,7 +64,7 @@ public class ProblemImporterTester {
 				.build());
 		expected.add(Problem.Builder
 				.create()
-				//
+				.number(3)
 				.question(
 						"Which of the following is the MAXIMUM transfer speed of USB 2.0?")//
 				.addAnswer(Answer.createWith(A, "100 Mbps"))//
@@ -73,7 +76,7 @@ public class ProblemImporterTester {
 				.build());
 		expected.add(Problem.Builder
 				.create()
-				//
+				.number(4)
 				.question(
 						"Which of the following display connections has 15-pins?")//
 				.addAnswer(Answer.createWith(A, "RGB"))//

@@ -22,6 +22,7 @@ public class ProblemTester {
 	@Before
 	public void setup() {
 		problem = Problem.Builder.create()//
+				.number(1)//
 				.question("Which of the following is a public IP addres?")//
 				.addAnswer(Answer.createWith(A, "10.0.0.1"))//
 				.addAnswer(Answer.createWith(B, "62.10.1.1"))//
@@ -33,6 +34,7 @@ public class ProblemTester {
 		duplicate = problem.duplicate();
 		differentProblem = Problem.Builder//
 				.create()//
+				.number(2)//
 				.question(
 						"Which of the following ports MUST be open to connect to a PC using RDP?")//
 				.addAnswer(Answer.createWith(A, "21"))//
@@ -55,7 +57,7 @@ public class ProblemTester {
 	}
 
 	@Test
-	public void testProblemEDoesNotEqualDifferentQuestion() {
+	public void testProblemDoesNotEqualDifferentQuestion() {
 		assertFalse(problem.equals(differentProblem));
 	}
 }
