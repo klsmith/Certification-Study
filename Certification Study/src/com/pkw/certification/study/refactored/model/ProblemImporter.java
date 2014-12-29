@@ -46,6 +46,7 @@ public class ProblemImporter {
 			} else if (isExplanation()) {
 				builder.setExplanation(getExplanation());
 				problemList.add(builder.build());
+				builder = Problem.Builder.create();
 			} else if (isCorrectAnswer()) {
 				builder.setCorrectAnswer(getCorrectAnswer());
 			} else {

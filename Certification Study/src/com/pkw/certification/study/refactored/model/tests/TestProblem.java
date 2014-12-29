@@ -12,7 +12,7 @@ public enum TestProblem {
 
 	FIRST(Problem.Builder.create()//
 			.setNumber(1)//
-			.setQuestion("Which of the following is a public IP addres?")//
+			.setQuestion("Which of the following is a public IP address?")//
 			.addAnswer(Answer.createWith(A, "10.0.0.1"))//
 			.addAnswer(Answer.createWith(B, "62.10.1.1"))//
 			.addAnswer(Answer.createWith(C, "172.16.0.1"))//

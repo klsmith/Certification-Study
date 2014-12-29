@@ -122,7 +122,7 @@ public class Problem implements Comparable<Problem> {
 		}
 
 		public Builder setQuestion(String question) {
-			this.question = question;
+			this.question = question.trim();
 			return this;
 		}
 
@@ -137,7 +137,7 @@ public class Problem implements Comparable<Problem> {
 		}
 
 		public Builder setExplanation(String explanation) {
-			this.explanation = explanation;
+			this.explanation = explanation.trim();
 			return this;
 		}
 

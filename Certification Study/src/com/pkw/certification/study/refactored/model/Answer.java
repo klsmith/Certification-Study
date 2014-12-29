@@ -11,7 +11,7 @@ public class Answer {
 
 	private Answer(Letter letter, String text) {
 		this.letter = letter;
-		this.text = text;
+		this.text = text.trim();
 	}
 
 	public Letter letter() {

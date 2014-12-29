@@ -19,8 +19,7 @@ public class ProblemImporterTester {
 				"assets/test-one-question-input.txt").importProblems();
 		ProblemList expected = ProblemList.create();
 		expected.add(FIRST.problem());
-		System.out.println(imported.get(0));
-		System.out.println(expected.get(0));
+
 		assertTrue(imported.equals(expected));
 	}
 
@@ -33,6 +32,8 @@ public class ProblemImporterTester {
 		expected.add(SECOND.problem());
 		expected.add(THIRD.problem());
 		expected.add(FOURTH.problem());
+		System.out.println(imported);
+		System.out.println(expected);
 		assertTrue(imported.equals(expected));
 	}
 }

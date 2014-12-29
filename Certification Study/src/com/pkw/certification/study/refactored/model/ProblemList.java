@@ -176,4 +176,13 @@ public class ProblemList implements List<Problem> {
 		return false;
 	}
 
+	@Override
+	public String toString() {
+		String result = "ProblemList {\n";
+		for (Problem problem : list) {
+			result += problem.toString() + "\n";
+		}
+		result += "}";
+		return result;
+	}
 }

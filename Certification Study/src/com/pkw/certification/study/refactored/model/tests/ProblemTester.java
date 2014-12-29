@@ -15,7 +15,7 @@ public class ProblemTester {
 	}
 
 	@Test
-	public void testProblemEEqualsDuplicate() {
+	public void testProblemEqualsDuplicate() {
 		assertTrue(FIRST.problem().equals(FIRST.problem().duplicate()));
 	}
 
