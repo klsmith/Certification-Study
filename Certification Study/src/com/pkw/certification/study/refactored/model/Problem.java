@@ -1,39 +1,37 @@
 package com.pkw.certification.study.refactored.model;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
+import javax.swing.GroupLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+
+import com.pkw.certification.study.refactored.model.Answer.Letter;
 
 public class Problem implements Comparable<Problem> {
 
 	private int number;
 	private String question;
-	private Map<Answer.Letter, Answer> answerMap;
+	private AnswerGroup answerGroup;
 	private Answer.Letter correctAnswer;
 	private String explanation;
 
-	private Problem(int number, String question,
-			Map<Answer.Letter, Answer> answerMap, Answer.Letter correctAnswer,
-			String explanation) {
+	private Problem(int number, String question, AnswerGroup answerGroup,
+			Answer.Letter correctAnswer, String explanation) {
 		this.number = number;
 		this.question = question;
-		this.answerMap = answerMap;
+		this.answerGroup = answerGroup;
 		this.correctAnswer = correctAnswer;
 		this.explanation = explanation;
 	}
 
 	public Problem duplicate() {
-		return new Problem(number, question, dusplicateAnswerMap(),
+		return new Problem(number, question, answerGroup.duplicate(),
 				correctAnswer, explanation);
-	}
-
-	private Map<Answer.Letter, Answer> dusplicateAnswerMap() {
-		Map<Answer.Letter, Answer> dusplicateAnswerMap = new HashMap<Answer.Letter, Answer>();
-		for (Answer.Letter key : answerMap.keySet()) {
-			dusplicateAnswerMap.put(key, answerMap.get(key));
-		}
-		return dusplicateAnswerMap;
 	}
 
 	@Override
@@ -52,7 +50,7 @@ public class Problem implements Comparable<Problem> {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
-				+ ((answerMap == null) ? 0 : answerMap.hashCode());
+				+ ((answerGroup == null) ? 0 : answerGroup.hashCode());
 		result = prime * result
 				+ ((correctAnswer == null) ? 0 : correctAnswer.hashCode());
 		result = prime * result
@@ -73,7 +71,7 @@ public class Problem implements Comparable<Problem> {
 			Problem other = (Problem) obj;
 			return (number == other.number)
 					&& (question.equals(other.question))
-					&& (answerMap.equals(other.answerMap))
+					&& (answerGroup.equals(other.answerGroup))
 					&& (correctAnswer.equals(other.correctAnswer))
 					&& (explanation.equals(other.explanation));
 		} else {
@@ -85,23 +83,65 @@ public class Problem implements Comparable<Problem> {
 	public String toString() {
 		String result = "QUESTION NO: " + number + "\n";
 		result += question + "\n";
-		for (Answer.Letter letter : answerMap.keySet()) {
-			result += letter + ". " + answerMap.get(letter).text() + "\n";
-		}
+		result += answerGroup.toString();
 		result += "Answer: " + correctAnswer + "\n";
 		result += "Explanation: " + explanation + "\n";
 		return result;
 	}
 
 	public JPanel panel() {
-		return new JPanel();
+		JPanel panel = new JPanel();
+		GroupLayout layout = getGroupLayoutFor(panel);
+		JLabel questionLabel = getQuestionLabel();
+		AnswerGroup.Panel answerGroupPanel = answerGroup.panel();
+		JButton checkButton = getCheckButton(panel, answerGroupPanel);
+		layout.setHorizontalGroup(layout
+				.createParallelGroup(GroupLayout.Alignment.LEADING)
+				.addComponent(questionLabel).addComponent(answerGroupPanel)//
+				.addComponent(checkButton));
+		layout.setVerticalGroup(layout.createSequentialGroup()
+				.addComponent(questionLabel)//
+				.addComponent(answerGroupPanel).addComponent(checkButton));
+		panel.setLayout(layout);
+		return panel;
+	}
+
+	private GroupLayout getGroupLayoutFor(JPanel panel) {
+		GroupLayout layout = new GroupLayout(panel);
+		layout.setAutoCreateGaps(true);
+		layout.setAutoCreateContainerGaps(true);
+		return layout;
+	}
+
+	private JLabel getQuestionLabel() {
+		String text = "<html>" + number + ". " + question + "</html>";
+		JLabel questionLabel = new JLabel(text);
+		questionLabel.setMaximumSize(new Dimension(300, 1000));
+		return questionLabel;
+	}
+
+	private JButton getCheckButton(final JPanel panel,
+			final AnswerGroup.Panel answerGroupPanel) {
+		JButton checkButton = new JButton("Check Answer");
+		checkButton.addActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				Letter selected = answerGroupPanel.selectedLetter();
+				if (selected == correctAnswer) {
+					JOptionPane.showMessageDialog(panel, "Correct! :D");
+				} else {
+					JOptionPane.showMessageDialog(panel, "Incorrect! :(");
+				}
+			}
+		});
+		return checkButton;
 	}
 
 	public static class Builder {
 
 		private int number;
 		private String question;
-		private Map<Answer.Letter, Answer> answerMap;
+		private AnswerGroup answerGroup;
 		private Answer.Letter correctAnswer;
 		private String explanation;
 
@@ -111,8 +151,8 @@ public class Problem implements Comparable<Problem> {
 
 		private Builder() {
 			question = "";
-			answerMap = new HashMap<Answer.Letter, Answer>();
-			correctAnswer = null;
+			answerGroup = AnswerGroup.create();
+			correctAnswer = Answer.Letter.ERR;
 			explanation = "";
 		}
 
@@ -127,7 +167,7 @@ public class Problem implements Comparable<Problem> {
 		}
 
 		public Builder addAnswer(Answer answer) {
-			answerMap.put(answer.letter(), answer);
+			answerGroup.add(answer);
 			return this;
 		}
 
@@ -142,7 +182,7 @@ public class Problem implements Comparable<Problem> {
 		}
 
 		public Problem build() {
-			return new Problem(number, question, answerMap, correctAnswer,
+			return new Problem(number, question, answerGroup, correctAnswer,
 					explanation);
 		}
 	}

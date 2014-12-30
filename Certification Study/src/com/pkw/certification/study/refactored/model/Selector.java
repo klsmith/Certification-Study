@@ -1,14 +1,17 @@
 package com.pkw.certification.study.refactored.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Selector<E> {
 
+	private List<MoveListener> listeners;
 	private List<E> list;
 	private int index;
 
 	public Selector(List<E> list) {
 		this.list = list;
+		listeners = new ArrayList<MoveListener>();
 	}
 
 	public void moveToNext() {
@@ -17,10 +20,11 @@ public class Selector<E> {
 		} else {
 			goUp();
 		}
+		onMove();
 	}
 
 	private boolean isAtTopBounds() {
-		return index >= list.size();
+		return index >= list.size() - 1;
 	}
 
 	private void goToBottom() {
@@ -37,6 +41,7 @@ public class Selector<E> {
 		} else {
 			goDown();
 		}
+		onMove();
 	}
 
 	private boolean isAtBottomBounds() {
@@ -44,7 +49,7 @@ public class Selector<E> {
 	}
 
 	private void goToTop() {
-		index = list.size();
+		index = list.size() - 1;
 	}
 
 	private void goDown() {
@@ -53,5 +58,23 @@ public class Selector<E> {
 
 	public E selected() {
 		return list.get(index);
+	}
+
+	public List<E> list() {
+		return list;
+	}
+
+	public void addMoveListener(MoveListener listener) {
+		listeners.add(listener);
+	}
+
+	private void onMove() {
+		for (MoveListener listener : listeners) {
+			listener.onMove();
+		}
+	}
+
+	public static abstract class MoveListener {
+		public abstract void onMove();
 	}
 }

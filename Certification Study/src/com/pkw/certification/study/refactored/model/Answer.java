@@ -1,9 +1,14 @@
 package com.pkw.certification.study.refactored.model;
 
+import java.awt.Dimension;
+
+import javax.swing.JRadioButton;
+
 public class Answer {
 
 	private Letter letter;
 	private String text;
+	private RadioButton radioButton;
 
 	public static Answer createWith(Letter letter, String text) {
 		return new Answer(letter, text);
@@ -12,6 +17,7 @@ public class Answer {
 	private Answer(Letter letter, String text) {
 		this.letter = letter;
 		this.text = text.trim();
+		radioButton = new RadioButton();
 	}
 
 	public Letter letter() {
@@ -24,7 +30,7 @@ public class Answer {
 
 	@Override
 	public String toString() {
-		return letter + ": " + text;
+		return letter + ". " + text;
 	}
 
 	@Override
@@ -49,8 +55,26 @@ public class Answer {
 		return false;
 	}
 
+	public Answer.RadioButton radioButton() {
+		return radioButton;
+	}
+
+	public class RadioButton extends JRadioButton {
+		private static final long serialVersionUID = 5965112682889530488L;
+
+		private RadioButton() {
+			super();
+			setText("<html>" + letter + ". " + text + "</html>");
+			setMaximumSize(new Dimension(300, 1000));
+		}
+
+		public Letter letter() {
+			return letter;
+		}
+	}
+
 	public static enum Letter {
-		ERR, A, B, C, D;
+		ERR, A, B, C, D, E, F, G, H, I, J, K;
 
 		public static Letter valueOf(char c) {
 			String s = String.valueOf(c).toUpperCase();
@@ -62,4 +86,5 @@ public class Answer {
 			return ERR;
 		}
 	}
+
 }

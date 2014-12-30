@@ -185,4 +185,8 @@ public class ProblemList implements List<Problem> {
 		result += "}";
 		return result;
 	}
+
+	public Selector<Problem> selector() {
+		return new Selector<Problem>(this);
+	}
 }

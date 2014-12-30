@@ -106,10 +106,8 @@ Explanation:
 QUESTION NO: 14
 Which of the following is the BEST way to explain RAID to a non-technical user?
 A. “RAID is a dynamic logical disk management system.”
-B. “RAID uses multiple hard disks to increase performance and/or provide protection against data
-loss.”
-C. “RAID uses data striping to reduce hard drive write time and parity bits to reconstruct the data
-from a failed hard drive.”
+B. “RAID uses multiple hard disks to increase performance and/or provide protection against dataloss.”
+C. “RAID uses data striping to reduce hard drive write time and parity bits to reconstruct the datafrom a failed hard drive.”
 D. “RAID stands for Redundant Array of Independent Disks”.
 Answer: B
 Explanation:
