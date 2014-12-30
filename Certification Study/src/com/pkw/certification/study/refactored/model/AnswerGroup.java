@@ -9,6 +9,7 @@ import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JPanel;
 
+import com.pkw.certification.study.refactored.model.Answer.Button;
 import com.pkw.certification.study.refactored.model.Answer.Letter;
 
 public class AnswerGroup {
@@ -109,18 +110,15 @@ public class AnswerGroup {
 			buttonList = new ArrayList<Answer.Button>();
 			ButtonGroup group = new ButtonGroup();
 			for (Answer.Letter letter : answerMap.keySet()) {
+				Button button;
 				if (correctAnswers.size() == 1) {
-					Answer.RadioButton radioButton = answerMap.get(letter)
-							.radioButton();
-					buttonList.add(radioButton);
-					group.add(radioButton.button());
-					add(radioButton.button());
+					button = answerMap.get(letter).radioButton();
+					group.add(button.button());
 				} else {
-					Answer.CheckButton checkButton = answerMap.get(letter)
-							.checkButton();
-					buttonList.add(checkButton);
-					add(checkButton.button());
+					button = answerMap.get(letter).checkButton();
 				}
+				buttonList.add(button);
+				add(button.button());
 			}
 		}
 

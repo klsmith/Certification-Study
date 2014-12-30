@@ -9,6 +9,7 @@ public class Application {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setResizable(false);
 		frame.add(MainPanel.createIn(frame));
 		frame.setVisible(true);
 		frame.pack();
