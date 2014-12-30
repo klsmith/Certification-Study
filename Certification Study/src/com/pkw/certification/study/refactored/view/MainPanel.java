@@ -42,12 +42,12 @@ public class MainPanel extends JPanel {
 	}
 
 	public void update() {
-		swapCenter(selector.selected().panel());
+		swapNorthPanel(selector.selected().panel());
 		frame.revalidate();
 		frame.repaint();
 	}
 
-	private void swapCenter(JPanel panel) {
+	private void swapNorthPanel(JPanel panel) {
 		Component component = layout.getLayoutComponent(BorderLayout.NORTH);
 		if (component != null) {
 			remove(layout.getLayoutComponent(BorderLayout.NORTH));
