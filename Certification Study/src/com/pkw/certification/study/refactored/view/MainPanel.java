@@ -7,7 +7,6 @@ import java.awt.Dimension;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-import javax.swing.border.EmptyBorder;
 
 import com.pkw.certification.study.refactored.model.Problem;
 import com.pkw.certification.study.refactored.model.ProblemImporter;
