@@ -102,28 +102,53 @@ public class AnswerGroup {
 	public class Panel extends JPanel {
 		private static final long serialVersionUID = 4816372482400783651L;
 
-		private List<Answer.RadioButton> radioButtonList;
+		private List<Answer.Button> buttonList;
 
 		private Panel() {
 			setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
-			radioButtonList = new ArrayList<Answer.RadioButton>();
+			buttonList = new ArrayList<Answer.Button>();
 			ButtonGroup group = new ButtonGroup();
 			for (Answer.Letter letter : answerMap.keySet()) {
-				Answer.RadioButton radioButton = answerMap.get(letter)
-						.radioButton();
-				radioButtonList.add(radioButton);
-				group.add(radioButton);
-				add(radioButton);
+				if (correctAnswers.size() == 1) {
+					Answer.RadioButton radioButton = answerMap.get(letter)
+							.radioButton();
+					buttonList.add(radioButton);
+					group.add(radioButton.button());
+					add(radioButton.button());
+				} else {
+					Answer.CheckButton checkButton = answerMap.get(letter)
+							.checkButton();
+					buttonList.add(checkButton);
+					add(checkButton.button());
+				}
 			}
 		}
 
-		public Letter selectedLetter() {
-			for (Answer.RadioButton radioButton : radioButtonList) {
-				if (radioButton.isSelected()) {
-					return radioButton.letter();
+		private List<Letter> selectedLetters() {
+			List<Letter> selectedLetters = new ArrayList<Letter>();
+			for (Answer.Button radioButton : buttonList) {
+				if (radioButton.button().isSelected()) {
+					selectedLetters.add(radioButton.letter());
 				}
 			}
-			return Answer.Letter.ERR;
+			return selectedLetters;
+		}
+
+		public boolean correctAnswersAreSelected() {
+			boolean result = false;
+			List<Letter> selectedLetters = selectedLetters();
+			if (selectedLetters.size() > 0) {
+				result = true;
+			}
+			if (selectedLetters.size() != correctAnswers.size()) {
+				return false;
+			}
+			for (Letter letter : selectedLetters()) {
+				if (!correctAnswers.contains(letter)) {
+					return false;
+				}
+			}
+			return result;
 		}
 	}
 }

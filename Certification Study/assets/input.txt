@@ -2115,8 +2115,7 @@ QUESTION NO: 259
 Which of the following are characteristics of transferring data using fiber as the medium? (Select TWO).
 A. Fiber can transmit data the farthest distance without requiring a repeater
 B. Fiber is the least susceptible to EMI
-C. Fiber is the most susceptible to changes in temperature and humidity, which can cause varying
-transmission speeds
+C. Fiber is the most susceptible to changes in temperature and humidity, which can cause varyingtransmission speeds
 D. Fiber can transmit power as well as data, which will lead to cost savings
 E. Fiber is the least expensive means of transmitting data
 Answer: A,B

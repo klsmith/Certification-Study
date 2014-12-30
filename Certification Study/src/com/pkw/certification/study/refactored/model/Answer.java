@@ -2,13 +2,14 @@ package com.pkw.certification.study.refactored.model;
 
 import java.awt.Dimension;
 
+import javax.swing.JCheckBox;
 import javax.swing.JRadioButton;
+import javax.swing.JToggleButton;
 
 public class Answer {
 
 	private Letter letter;
 	private String text;
-	private RadioButton radioButton;
 
 	public static Answer createWith(Letter letter, String text) {
 		return new Answer(letter, text);
@@ -17,7 +18,6 @@ public class Answer {
 	private Answer(Letter letter, String text) {
 		this.letter = letter;
 		this.text = text.trim();
-		radioButton = new RadioButton();
 	}
 
 	public Letter letter() {
@@ -56,20 +56,55 @@ public class Answer {
 	}
 
 	public Answer.RadioButton radioButton() {
-		return radioButton;
+		return new RadioButton();
 	}
 
-	public class RadioButton extends JRadioButton {
-		private static final long serialVersionUID = 5965112682889530488L;
+	public Answer.CheckButton checkButton() {
+		return new CheckButton();
+	}
+
+	public interface Button {
+		public Letter letter();
+
+		public JToggleButton button();
+	}
+
+	public class RadioButton implements Button {
+
+		private JRadioButton button;
 
 		private RadioButton() {
-			super();
-			setText("<html>" + letter + ". " + text + "</html>");
-			setMaximumSize(new Dimension(300, 1000));
+			button = new JRadioButton("<html>" + letter + ". " + text
+					+ "</html>");
+			button.setMaximumSize(new Dimension(300, 1000));
 		}
 
 		public Letter letter() {
 			return letter;
+		}
+
+		@Override
+		public JToggleButton button() {
+			return button;
+		}
+	}
+
+	public class CheckButton implements Button {
+		private JCheckBox button;
+
+		private CheckButton() {
+			button = new JCheckBox("<html>" + letter + ". " + text + "</html>");
+			button.setMaximumSize(new Dimension(300, 1000));
+		}
+
+		@Override
+		public Letter letter() {
+			return letter;
+		}
+
+		@Override
+		public JToggleButton button() {
+			return button;
 		}
 	}
 

@@ -121,8 +121,7 @@ public class Problem implements Comparable<Problem> {
 		checkButton.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				Letter selected = answerGroupPanel.selectedLetter();
-				if (answerGroup.isCorrectAnswer(selected)) {
+				if (answerGroupPanel.correctAnswersAreSelected()) {
 					JOptionPane.showMessageDialog(panel, "Correct! :D");
 				} else {
 					JOptionPane.showMessageDialog(panel, "Incorrect! :(");
