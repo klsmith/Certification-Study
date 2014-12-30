@@ -15,7 +15,6 @@ import com.pkw.certification.study.refactored.model.Selector.MoveListener;
 
 public class MainPanel extends JPanel {
 	private static final long serialVersionUID = 934364967952571204L;
-	private static final int PADDING = 12;
 
 	private JFrame frame;
 	private BorderLayout layout;
@@ -57,7 +56,7 @@ public class MainPanel extends JPanel {
 		scrollPane
 				.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
 		scrollPane.setViewportView(panel);
-		scrollPane.setPreferredSize(new Dimension(350, 300));
+		scrollPane.setPreferredSize(new Dimension(352, 256));
 		add(scrollPane, BorderLayout.NORTH);
 	}
 

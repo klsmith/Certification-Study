@@ -5,6 +5,10 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.pkw.certification.study.refactored.model.Answer.Letter;
 
 public class ProblemImporter {
 
@@ -42,13 +46,13 @@ public class ProblemImporter {
 			if (isProblemNumber()) {
 				builder.setNumber(getNumber());
 			} else if (isPossibleAnswer()) {
-				builder.addAnswer(getPossibleAnswer());
+				builder.addAnswerChoice(getPossibleAnswer());
 			} else if (isExplanation()) {
 				builder.setExplanation(getExplanation());
 				problemList.add(builder.build());
 				builder = Problem.Builder.create();
 			} else if (isCorrectAnswer()) {
-				builder.setCorrectAnswer(getCorrectAnswer());
+				builder.addAllCorrectAnswers(getCorrectAnswers());
 			} else {
 				builder.setQuestion(currentLine);
 			}
@@ -96,9 +100,17 @@ public class ProblemImporter {
 		return currentLine.startsWith(CORRECT_ANSWER_PREFIX);
 	}
 
-	private Answer.Letter getCorrectAnswer() {
+	private List<Letter> getCorrectAnswers() {
 		int place = CORRECT_ANSWER_PREFIX.length() + 1;
-		return Answer.Letter.valueOf(currentLine.charAt(place));
+		List<Letter> correctAnswers = new ArrayList<Letter>();
+		while (place < currentLine.length()) {
+			Letter letter = Letter.valueOf(currentLine.charAt(place));
+			if (letter != Letter.ERR) {
+				correctAnswers.add(letter);
+			}
+			place += 1;
+		}
+		return correctAnswers;
 	}
 
 	private boolean isExplanation() {

@@ -3,6 +3,7 @@ package com.pkw.certification.study.refactored.model;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.List;
 
 import javax.swing.GroupLayout;
 import javax.swing.JButton;
@@ -17,21 +18,19 @@ public class Problem implements Comparable<Problem> {
 	private int number;
 	private String question;
 	private AnswerGroup answerGroup;
-	private Answer.Letter correctAnswer;
 	private String explanation;
 
 	private Problem(int number, String question, AnswerGroup answerGroup,
-			Answer.Letter correctAnswer, String explanation) {
+			String explanation) {
 		this.number = number;
 		this.question = question;
 		this.answerGroup = answerGroup;
-		this.correctAnswer = correctAnswer;
 		this.explanation = explanation;
 	}
 
 	public Problem duplicate() {
 		return new Problem(number, question, answerGroup.duplicate(),
-				correctAnswer, explanation);
+				explanation);
 	}
 
 	@Override
@@ -52,8 +51,6 @@ public class Problem implements Comparable<Problem> {
 		result = prime * result
 				+ ((answerGroup == null) ? 0 : answerGroup.hashCode());
 		result = prime * result
-				+ ((correctAnswer == null) ? 0 : correctAnswer.hashCode());
-		result = prime * result
 				+ ((explanation == null) ? 0 : explanation.hashCode());
 		result = prime * result + number;
 		result = prime * result
@@ -72,7 +69,6 @@ public class Problem implements Comparable<Problem> {
 			return (number == other.number)
 					&& (question.equals(other.question))
 					&& (answerGroup.equals(other.answerGroup))
-					&& (correctAnswer.equals(other.correctAnswer))
 					&& (explanation.equals(other.explanation));
 		} else {
 			return false;
@@ -84,7 +80,6 @@ public class Problem implements Comparable<Problem> {
 		String result = "QUESTION NO: " + number + "\n";
 		result += question + "\n";
 		result += answerGroup.toString();
-		result += "Answer: " + correctAnswer + "\n";
 		result += "Explanation: " + explanation + "\n";
 		return result;
 	}
@@ -127,7 +122,7 @@ public class Problem implements Comparable<Problem> {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				Letter selected = answerGroupPanel.selectedLetter();
-				if (selected == correctAnswer) {
+				if (answerGroup.isCorrectAnswer(selected)) {
 					JOptionPane.showMessageDialog(panel, "Correct! :D");
 				} else {
 					JOptionPane.showMessageDialog(panel, "Incorrect! :(");
@@ -142,7 +137,6 @@ public class Problem implements Comparable<Problem> {
 		private int number;
 		private String question;
 		private AnswerGroup answerGroup;
-		private Answer.Letter correctAnswer;
 		private String explanation;
 
 		public static Builder create() {
@@ -152,7 +146,6 @@ public class Problem implements Comparable<Problem> {
 		private Builder() {
 			question = "";
 			answerGroup = AnswerGroup.create();
-			correctAnswer = Answer.Letter.ERR;
 			explanation = "";
 		}
 
@@ -166,13 +159,20 @@ public class Problem implements Comparable<Problem> {
 			return this;
 		}
 
-		public Builder addAnswer(Answer answer) {
-			answerGroup.add(answer);
+		public Builder addAnswerChoice(Answer answer) {
+			answerGroup.addAnswerChoice(answer);
 			return this;
 		}
 
-		public Builder setCorrectAnswer(Answer.Letter correctAnswer) {
-			this.correctAnswer = correctAnswer;
+		public Builder addCorrectAnswer(Letter correctAnswer) {
+			answerGroup.addCorrectAnswer(correctAnswer);
+			return this;
+		}
+
+		public Builder addAllCorrectAnswers(List<Letter> correctAnswers) {
+			for (Letter letter : correctAnswers) {
+				addCorrectAnswer(letter);
+			}
 			return this;
 		}
 
@@ -182,8 +182,7 @@ public class Problem implements Comparable<Problem> {
 		}
 
 		public Problem build() {
-			return new Problem(number, question, answerGroup, correctAnswer,
-					explanation);
+			return new Problem(number, question, answerGroup, explanation);
 		}
 	}
 }
