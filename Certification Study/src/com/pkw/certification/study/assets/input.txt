@@ -1,0 +1,2178 @@
+QUESTION NO: 1
+Which of the following is a public IP address?
+A. 10.0.0.1
+B. 62.10.1.1
+C. 172.16.0.1
+D. 192.168.1.1
+Answer: B
+Explanation:
+QUESTION NO: 2
+Which of the following ports MUST be open to connect to a PC using RDP?
+A. 21
+B. 80
+C. 443
+D. 3389
+Answer: D
+Explanation:
+QUESTION NO: 3
+Which of the following is the MAXIMUM transfer speed of USB 2.0?
+A. 100 Mbps
+B. 400 Mbps
+C. 420 Mbps
+D. 480 Mbps
+Answer: D
+Explanation:
+QUESTION NO: 4
+Which of the following display connections has 15-pins?
+A. RGB
+B. VGA
+C. DVI
+D. HDMI
+Answer: B
+Explanation:
+QUESTION NO: 5
+Which of the following connector types is only used for Coaxial?
+A. RJ-11
+B. ST
+C. F
+D. RJ-45
+Answer: C
+Explanation:
+QUESTION NO: 6
+Which of the following cable types has the MAXIMUM transfer rate of 1 Gbps?
+A. CAT3
+B. CAT5
+C. CAT5e
+D. CAT6
+Answer: C
+Explanation:
+QUESTION NO: 7
+Which of the following features of Windows allows a device to have a default IP address if a DHCP server is not available?
+A. APIPA
+B. ARP
+C. IPv6
+D. DNS
+Answer: A
+Explanation:
+QUESTION NO: 8
+Which of the following wireless standards is backwards compatible with 802.11g?
+A. 802.11a
+B. 802.11b
+C. 802.11n
+D. 802.1q
+Answer: C
+Explanation:
+QUESTION NO: 9
+Which of the following types of RAM can be used in a dual channel configuration?
+A. SDRAM
+B. RAMBUS
+C. DDR
+D. DIMM
+Answer: C
+Explanation:
+QUESTION NO: 10
+Which of the following is the BEST protocol to use for securely transferring large files?
+A. Telnet
+B. SSH
+C. SFTP
+D. FTP
+Answer: C
+Explanation:
+QUESTION NO: 11
+Which type of fire extinguishing technology should be used when encountering an electrical fire?
+A. Class B fire extinguishers
+B. Overhead sprinkler system
+C. Water-based fire extinguishers
+D. Non-water based extinguishers
+Answer: D
+Explanation:
+QUESTION NO: 12
+Which of the following will provide the BEST protection against power failures and data loss?
+A. Auto-switching power supply
+B. Uninterruptible power supply
+C. Line conditioner
+D. Surge suppressor
+Answer: B
+Explanation:
+QUESTION NO: 13
+Which of the following tools are commonly used to remove dust and debris from inside acomputer? (Select TWO).
+A. Cotton and alcohol
+B. Vacuum
+C. Compressed air
+D. Anti-bacterial surface cleaner
+E. Feather duster
+Answer: B,C
+Explanation:
+QUESTION NO: 14
+Which of the following is the BEST way to explain RAID to a non-technical user?
+A. “RAID is a dynamic logical disk management system.”
+B. “RAID uses multiple hard disks to increase performance and/or provide protection against dataloss.”
+C. “RAID uses data striping to reduce hard drive write time and parity bits to reconstruct the datafrom a failed hard drive.”
+D. “RAID stands for Redundant Array of Independent Disks”.
+Answer: B
+Explanation:
+QUESTION NO: 15
+Which of the following is representative of a class C address type?
+A. 10.15.1.4
+B. 169.254.125.15
+C. 172.20.15.5
+D. 192.168.1.15
+Answer: D
+Explanation:
+QUESTION NO: 16
+A client wants a technician to install more RAM on their graphics workstation. The client has provided a 4 GB SODIMM and had problems installing it. Which of the following is the probable reason for this?
+A. Graphic workstations require flash memory
+B. The memory is incompatible for the workstation
+C. Graphic workstations require solid state memory
+D. The workstation has no available memory slots
+Answer: B
+Explanation:
+QUESTION NO: 17
+Which of the following MUST be performed when installing a PCI sound card for use instead of the onboard sound?
+A. Install drivers
+B. Install additional memory
+C. Configure the jumpers
+D. Flash the BIOS
+Answer: A
+Explanation:
+QUESTION NO: 18
+Which of the following hard drive types would be considered the MOST likely to survive a fall?
+A. SCSI
+B. Solid State
+C. IDE
+D. SATA
+Answer: B
+Explanation:
+QUESTION NO: 19
+Which of the following are the MOST important factors to address when a technician is choosing the components for a CAD workstation? (Select THREE).
+A. Large drive space allocation
+B. Powerful sound card
+C. Multiple network cards
+D. Multiple large HD monitors
+E. Powerful video card
+F. Maximum RAM
+G. Powerful processor
+Answer: E,F,G
+Explanation:
+QUESTION NO: 20
+Which of the following is the speed limitation for CAT3 wiring?
+A. 1 Mbps
+B. 10 Mbps
+C. 100 Mbps
+D. 1000 Mbps
+Answer: B
+Explanation:
+QUESTION NO: 21
+If a technician is trying to remote into a computer through a firewall, which of the following ports, by default, MUST be forwarded?
+A. 21
+B. 25
+C. 110
+D. 3389
+Answer: D
+Explanation:
+QUESTION NO: 22
+Which of the following wireless network standards provides the FASTEST throughput?
+A. A
+B. B
+C. G
+D. N
+Answer: D
+Explanation:
+QUESTION NO: 23
+Which of the following allows a technician to enable support for a USB 1.1 device?
+A. MBR
+B. HCL
+C. BIOS
+D. AGP
+Answer: C
+Explanation:
+QUESTION NO: 24
+Which of the following connectors from a power supply should be used with a graphics expansion card?
+A. 8-pin 12 volt
+B. PCIe 6-pin
+C. 20-pin
+D. SATA
+Answer: B
+Explanation:
+QUESTION NO: 25
+An end user requires a computer to support computer aided drafting and computer aided modeling. Which of the following component packages should a technician recommend to the end user?
+A. Powerful processor, high-end graphics card, and maximum RAM
+B. File streaming, printer sharing, and a RAID array
+C. Surround sound audio, compact form factor, HDMI output
+D. Processor and RAM that meets minimum Windows requirements
+Answer: A
+Explanation:
+QUESTION NO: 26
+After installing a bar code reader, which of the following is commonly done to configure the reader?
+A. Scan in program codes
+B. Enable the code reader in the BIOS
+C. Use Device Manager to enable I/R ports
+D. Adjust jumper switches
+Answer: A
+Explanation:
+QUESTION NO: 27
+Which of the following expansion slots would support the HIGHEST transfer speeds for high-end graphics cards? (Select TWO).
+A. PCIe
+B. AGP 8x
+C. PCI
+D. ISA
+E. AGP
+Answer: A,B
+Explanation:
+QUESTION NO: 28
+Which of the following represents a connector that supports the connection of external devices? (Select TWO).
+A. IEEE1394
+B. eSATA
+C. EIDE
+D. SATA
+E. IDE
+Answer: A,B
+Explanation:
+QUESTION NO: 29
+Which of the following are the MOST important considerations when configuring a PC that will be used for a CAD / CAM workstation? (Select TWO).
+A. Gigabit NIC
+B. HDMI output
+C. Maximum RAM
+D. Powerful processor
+E. High end audio output
+Answer: C,D
+Explanation:
+QUESTION NO: 30
+Which of the following input devices allows multiple PCs to share a common display?
+A. Router
+B. Bridge
+C. KVM
+D. Wireless keyboard
+Answer: C
+Explanation:
+QUESTION NO: 31
+Which of the following connectors would be found on a twisted pair cable?
+A. RJ-45
+B. BNC
+C. SC
+D. ST
+Answer: A
+Explanation:
+QUESTION NO: 32
+Which of the following allows for the FARTHEST transmission distance for data?
+A. Bluetooth
+B. Single-mode fibre
+C. RG-6 cable
+D. CAT6 cable
+Answer: B
+Explanation:
+QUESTION NO: 33
+The helpdesk technician has been tasked to reinstall the OS on a desktop and has already inserted the OS install disk in the CD-ROM. Which of the following would MOST likely need to be configured within the BIOS to continue reinstalling the OS?
+A. BIOS password
+B. Flash BIOS for firmware upgrade
+C. Boot sequence
+D. Clock speeds
+Answer: C
+Explanation:
+QUESTION NO: 34
+A user is requesting assistance in building a custom made PC for home theater use to connect to their existing large LCD screen. Which of the following components should MOST likely be recommended? (Select TWO).
+A. Large IDE hard drive
+B. HDMI output
+C. Dual monitors
+D. RAID array
+E. TV tuner
+Answer: B,E
+Explanation:
+QUESTION NO: 35
+Which of the following devices might need drivers installed so that it can be recognized by the operating system and function properly?
+A. Speakers
+B. Monitors
+C. Scanners
+D. Projectors
+Answer: C
+Explanation:
+QUESTION NO: 36
+Which of the following properties of TCP/IP is used to differentiate the network and the host portions of an IP address?
+A. DNS address
+B. Default gateway
+C. Subnet mask
+D. DHCP lease
+Answer: C
+Explanation:
+QUESTION NO: 37
+A user is trying to setup a small office home office (SOHO) wireless network and does not want any neighbors to be able to discover the network. Which of the following parameters would MOST likely be configured?
+A. Configure a proxy server address
+B. Enable WEP encryption
+C. Disable SSID broadcast
+D. Configure DMZ settings
+Answer: C
+Explanation:
+QUESTION NO: 38
+Which of the following would provide continuous power to various devices connected to it during a power surge or outage?
+A. Line conditioner
+B. Power strip
+C. Battery backup
+D. Surge suppressor
+Answer: C
+Explanation:
+QUESTION NO: 39
+Which of the following network topologies would MOST likely be used to provide redundancy at each network device to support data transmissions?
+A. Mesh
+B. Ring
+C. PBX
+D. Bus
+Answer: A
+Explanation:
+QUESTION NO: 40
+Which of the following memory features allows for the protection against random inconsistencies in the transfer of the data?
+A. Low latency
+B. Dual channel
+C. ECC
+D. Single channel
+Answer: C
+Explanation:
+QUESTION NO: 41
+Primary system functions like basic boot priorities, voltage parameters for the processor, and SATA options are configured in which of the following areas of a PC system?
+A. MBR
+B. CMOS
+C. VRAM
+D. BIOS
+Answer: D
+Explanation:
+QUESTION NO: 42
+Which of the following storage media would be used to build a RAID 5 array?
+A. Dual layer DVDs
+B. SATA HDDs
+C. Flash drives
+D. Blu-ray discs
+Answer: B
+Explanation:
+QUESTION NO: 43
+Which of the following video cable types would be MOST likely to experience gradual, degraded signal quality over a long distance?
+A. HDMI
+B. DisplayPort
+C. VGA
+D. DVI
+Answer: C
+Explanation:
+QUESTION NO: 44
+A DVI-D cable is generally used for which of the following computer functions?
+A. Delivering audio only
+B. Delivering audio & video
+C. Delivering video only
+D. Delivering an analog signal
+Answer: C
+Explanation:
+QUESTION NO: 45
+An IP address of 10.10.1.180 would be considered part of which of the following address classes?
+A. Class A
+B. Class B
+C. Class C
+D. Class D
+Answer: A
+Explanation:
+QUESTION NO: 46
+Which of the following 802.11 wireless standards provides the LOWEST maximum theoretical throughput?
+A. A
+B. B
+C. G
+D. N
+Answer: B
+Explanation:
+QUESTION NO: 47
+Basic Internet web traffic generally travels on which of the following ports?
+A. 25 and 53
+B. 53 and 8080
+C. 80 and 443
+D. 110 and 53
+Answer: C
+Explanation:
+QUESTION NO: 48
+Which of the following printer types needs to have toner replaced as part of the normal maintenance cycle?
+A. Inkjet
+B. Thermal
+C. Impact
+D. Laser
+Answer: D
+Explanation:
+QUESTION NO: 49
+Which of the following technologies has the SHORTEST wireless range for printing?
+A. 802.11g
+B. 802.11a
+C. Bluetooth
+D. Infrared
+Answer: D
+Explanation:
+QUESTION NO: 50
+Which of the following protocols would be MOST important in preserving digital evidence of criminal activity during an investigation?
+A. Change control management
+B. Chain of custody
+C. Channel escalation
+D. MSDS documents
+Answer: B
+Explanation:
+QUESTION NO: 51
+After installing a new serial port card in a computer, the communication parameters need to be configured. Which of the following is the MOST common communication configuration for a serial port?
+A. Eight data bits, even parity, two stop bits
+B. Seven data bits, no parity, one stop bit
+C. Eight data bits, no parity, one stop bit
+D. Seven data bits, even parity, one stop bit
+Answer: C
+Explanation:
+QUESTION NO: 52
+A technician has installed a digital display. Which of the following is TRUE about the native resolution of a digital display?
+A. It has the slowest refresh rate.
+B. It causes the display to use pixel interpolation.
+C. It is the lowest resolution.
+D. It provides the best quality display.
+Answer: D
+Explanation:
+QUESTION NO: 53
+Which of the following describes the use of the DNS protocol as it relates to a TCP/IP network?
+A. Provides remote connectivity to resources on the network
+B. Provides separate control and data connections between network resources
+C. Provides mapping of user friendly names to network resources
+D. Provides automated addressing to resources on the network
+Answer: C
+Explanation:
+QUESTION NO: 54
+Which of the following wireless protocols is limited to operating in the 5 GHz range ONLY?
+A. 802.11a
+B. 802.11b
+C. 802.11g
+D. 802.11n
+Answer: A
+Explanation:
+QUESTION NO: 55
+Which of the following describes the expected properties of an asynchronous digital subscriber line service?
+A. The data upload speed is faster than the data download speed.
+B. The data download speed is faster than the data upload speed.
+C. The data upload speed is the same as the data download speed.
+D. The data throughput speed direction can be selected based on the user’s discretion.
+Answer: B
+Explanation:
+QUESTION NO: 56
+Which of the following devices transmits data to all ports regardless of final destination?
+A. Firewall
+B. Router
+C. Switch
+D. Hub
+Answer: D
+Explanation:
+QUESTION NO: 57
+When installing a printer in Windows, which of the following is the purpose of the Additional Drivers button on the Sharing tab in the printer’s properties?
+A. To add additional drivers to emulate a different printer
+B. To add additional drivers for other printers on the computer
+C. To add additional drivers for other operating systems
+D. To add additional drivers for different printing modes
+Answer: C
+Explanation:
+QUESTION NO: 58
+Which of the following features can be configured with keyboards to assist users with disabilities?
+A. Pointer trails
+B. Magnifier
+C. Sticky keys
+D. Character map
+Answer: C
+Explanation:
+QUESTION NO: 59
+Which of the following connector types is associated with a fiber connection?
+A. RJ-45
+B. RJ-11
+C. LC
+D. HDMI
+Answer: C
+Explanation:
+QUESTION NO: 60
+Which of the following media types is LEAST likely to be affected by electromagnetic interference?
+A. Coaxial
+B. Fiber
+C. Wireless B
+D. HSPA
+Answer: B
+Explanation:
+QUESTION NO: 61
+Which of the following BEST describes the function of DHCP?
+A. Blocks MAC address with security violations
+B. Translates IP addresses to names
+C. Encrypts data traffic on a network
+D. Assigns IP addresses on a network
+Answer: D
+Explanation:
+QUESTION NO: 62
+Which of the following network types BEST represents a network centered around one individual?
+A. LAN
+B. PAN
+C. Cloud
+D. MAN
+Answer: B
+Explanation:
+QUESTION NO: 63
+Which of the following expansion slots can ONLY be found on a desktop computer?
+A. PCI express
+B. Express Card 34
+C. Express Card 54
+D. PCMCIA
+Answer: A
+Explanation:
+QUESTION NO: 64
+Which of the following laptop accessories would MOST likely be used to support multiple displays when the laptop hardware does not have multiple video outputs?
+A. Docking station
+B. VGA to DVI converter
+C. Adjustable monitor arm
+D. PCMCIA card
+Answer: A
+Explanation:
+QUESTION NO: 65
+Which of the following is MOST likely to be reset during a standard printer maintenance?
+A. Print job cache
+B. Paper and tray settings
+C. Page count
+D. Job queue
+Answer: C
+Explanation:
+QUESTION NO: 66
+When unable to get an IP address from a server, which of the following represents an APIPA address that a PC might receive?
+A. 10.0.1.111
+B. 65.71.1.111
+C. 169.254.1.111
+D. 192.168.1.111
+Answer: C
+Explanation:
+QUESTION NO: 67
+Which of the following settings, when enabled, is MOST likely to result in an IP address conflict on a local network?
+A. Custom DNS address
+B. QoS enabled
+C. UPnP enabled
+D. Static IP address
+Answer: D
+Explanation:
+QUESTION NO: 68
+Which of the following features makes logical processor cores appear as physical cores to the operating system?
+A. XD-bit
+B. Hyperthreading
+C. MMU virtualization
+D. 64-bit architecture
+Answer: B
+Explanation:
+QUESTION NO: 69
+Which of the following is typically installed by connecting multiple DVI and USB cables to it?
+A. Touch screen
+B. LCD panel
+C. Webcam
+D. KVM
+Answer: D
+Explanation:
+QUESTION NO: 70
+A user on a wireless network has the IP address 169.254.155.2 but cannot connect to the Internet. Which of the following should the user check on the wireless router?
+A. WPA
+B. DHCP
+C. WINS
+D. DNS
+Answer: B
+Explanation:
+QUESTION NO: 71
+Which of the following devices on a home network should be placed in a DMZ?
+A. Backup server
+B. Gaming server
+C. Smartphone
+D. Wireless printer
+Answer: B
+Explanation:
+QUESTION NO: 72
+Which of the following devices converts digital signals to analog ones?
+A. Modem
+B. Switch
+C. Hub
+D. Router
+Answer: A
+Explanation:
+QUESTION NO: 73
+Which of the following printers is required when carbon paper is used?
+A. Inkjet
+B. Thermal
+C. Laser
+D. Impact
+Answer: D
+Explanation:
+QUESTION NO: 74
+A user discovers that color laser prints are printing slightly off-color. Which of the following should help restore the appropriate colors?
+A. Use different paper
+B. Replace the fuser
+C. Replace the duplexer
+D. Calibrate the printer
+Answer: D
+Explanation:
+QUESTION NO: 75
+ECC memory is primarily used in which of the following computers?
+A. Tablet
+B. Desktop
+C. Server
+D. Laptop
+Answer: C
+Explanation:
+QUESTION NO: 76
+Which of the following standards would be used on a wireless router to support speeds up to 150 Mbps?
+A. 802.11a
+B. 802.11b
+C. 802.11g
+D. 802.11n
+Answer: D
+Explanation:
+QUESTION NO: 77
+A technician must trace a network cable from a user’s desk to the punch down block in the wiring closet. Which of the following tools would be the BEST choice?
+A. Cable tester
+B. Multimeter
+C. Loopback plug
+D. Toner probe
+Answer: D
+Explanation:
+QUESTION NO: 78
+A DSL modem MOST commonly uses which of the following media?
+A. Cable TV coax
+B. Fiber optic cable
+C. Wireless adapter
+D. Household telephone lines
+Answer: D
+Explanation:
+QUESTION NO: 79
+Which of the following printer types uses an imaging drum?
+A. Laser
+B. Impact
+C. Inkjet
+D. Thermal
+Answer: A
+Explanation:
+QUESTION NO: 80
+A PC technician must upgrade memory from 2 GB to 4 GB in twenty Windows 7 notebook computers. Some of the laptops have DDR2 memory, and some have DDR3. The memory purchased for the upgrade is DDR3. Which of the following is the MOST likely outcome of this upgrade?
+A. The DDR2 notebooks will work with DDR3 provided the DDR2 is installed in the first DIMM
+positions.
+B. The DDR3 notebooks are the only ones that will accept the new memory.
+C. The DDR2 memory will fit into the DIMM positions and work.
+D. The DDR3 memory will not work correctly unless the CAS (CL) values are the same.
+Answer: B
+Explanation:
+QUESTION NO: 81
+A technician must replace a 10/100 NIC in a Windows XP PC. The failed NIC is no longer available and a substitute 1 GB NIC will be used. Which of the following MUST be performed to accomplish the task?
+A. The drivers for the new 1 GB NIC must be installed.
+B. The NIC speed cannot exceed 10/100 and the PC must support digitally signed drivers.
+C. The PC must be rated to support the 1 GB NIC speed.
+D. The network cable must also be upgraded.
+Answer: A
+Explanation:
+QUESTION NO: 82
+Which of the following are components of an “active” CPU cooling solution?
+A. A heatsink and thermal compound.
+B. A heatsink, radiator, and thermal compound.
+C. A heatsink, attached fan, and thermal compound.
+D. A heatsink, case fan, and thermal compound.
+Answer: C
+Explanation:
+QUESTION NO: 83
+Which of the following memory form factors is MOST commonly found in laptops?
+A. SDRAM
+B. SODIMM
+C. RAMBUS
+D. DIMM
+Answer: B
+Explanation:
+QUESTION NO: 84
+Click on the Exhibit button. Which of the following describes the port type pictured in the image?
+A. VGA
+B. Serial
+C. Parallel
+D. DVI
+Answer: A
+Explanation:
+QUESTION NO: 85
+Which of the following motherboards would fit in an ATX case?
+A. BTX
+B. ITX
+C. Ultra ATX
+D. Micro ATX
+Answer: D
+Explanation:
+QUESTION NO: 86
+A technician is asked to recommend hardware for a new computer for a graphic artist company that regularly uses 3-D animation software. Which of the following components should be chosen to BEST meet the customer’s needs?
+A. Specialized video card
+B. Multi-core processor
+C. TV tuner/recorder
+D. Tape backup drive
+Answer: A
+Explanation:
+QUESTION NO: 87
+A technician is helping to purchase a new server to be used to roll out virtualized workstations. Which of the following components should be chosen to BEST meet the customer’s needs? (Select TWO).
+A. Specialized video card
+B. Maximum memory
+C. Maximum-core processor
+D. Dual monitors
+E. Surround sound audio
+Answer: B,C
+Explanation:
+QUESTION NO: 88
+Which of the following should a technician configure to limit access to a small office home office (SOHO) wireless network by the computer’s NIC hardware identification?
+A. Encryption
+B. MAC filtering
+C. SSID broadcast
+D. DHCP
+Answer: B
+Explanation:
+QUESTION NO: 89
+A computer turns on and a “Date and Time Not Set” message appears on the screen after the manufacturer logo. Which of the following is the MOST possible cause?
+A. The computer was not shut down properly.
+B. The CMOS battery needs to be replaced.
+C. The OS has stopped synching with the NTP server.
+D. The system BIOS is corrupted.
+Answer: B
+Explanation:
+QUESTION NO: 90
+Which of the following ports are commonly used to send/receive email? (Select TWO).
+A. 25
+B. 53
+C. 80
+D. 110
+E. 443
+Answer: A,D
+Explanation:
+QUESTION NO: 91
+Which of the following encryption types is the LEAST secure?
+A. WPA
+B. AES
+C. TKIP
+D. WEP
+Answer: D
+Explanation:
+QUESTION NO: 92
+Which of the following is the FIRST component to transfer heat away from a processor?
+A. Thermal paste
+B. Case fan
+C. Liquid cooling
+D. Heatsink
+Answer: A
+Explanation:
+QUESTION NO: 93
+Which of the following connector types is used on a CAT5 cable?
+A. RJ-45
+B. DB-9
+C. RJ-11
+D. RS-232
+Answer: A
+Explanation:
+QUESTION NO: 94
+Which of the following cables is fire retardant?
+A. UTP
+B. PVC
+C. STP
+D. Plenum
+Answer: D
+Explanation:
+QUESTION NO: 95
+Which of the following PC expansion cards needs to be installed to record from a game console?
+A. Video capture
+B. High-end graphics
+C. Network
+D. RAID controller
+Answer: A
+Explanation:
+QUESTION NO: 96
+Which of the following connectors is used to connect a DSL modem to a wall outlet?
+A. RJ-45
+B. LC
+C. RJ-11
+D. SC
+Answer: C
+Explanation:
+QUESTION NO: 97
+A client has a laptop screen and an external screen. Which of the following is the BEST way to toggle between the two or show both at the same time?
+A. Function keys on keyboard
+B. Task Manager
+C. Display settings in Control Panel
+D. Turn the monitors on and off
+Answer: A
+Explanation:
+QUESTION NO: 98
+Which of the following network devices would be MOST likely to perform Network Address Translation (NAT)?
+A. Router
+B. Switch
+C. Hub
+D. Modem
+Answer: A
+Explanation:
+QUESTION NO: 99
+Chain of custody needs to be kept intact for which of the following reasons?
+A. To ensure data preservation during evidence inspection
+B. To ensure that the evidence is not left at the scene
+C. To ensure evidence is admissible in legal proceeding
+D. To ensure evidence is returned to proper owner
+Answer: C
+Explanation:
+QUESTION NO: 100
+Which of the following provides the BEST solution for customers needing quiet cooling options?
+A. Side panel slots
+B. Liquid based
+C. Additional fans
+D. Thermal paste
+Answer: B
+Explanation:
+QUESTION NO: 101
+Which of the following would BEST segment a LAN while providing additional network ports?
+A. Access point
+B. Modem
+C. Switch
+D. Hub
+Answer: C
+Explanation:
+QUESTION NO: 102
+Which of the following provides the LEAST network security?
+A. Firewall
+B. Router
+C. Hub
+D. Switch
+Answer: C
+Explanation:
+QUESTION NO: 103
+Which of the following RAID levels extends the size of a volume without providing reliability or mirroring?
+A. RAID 0
+B. RAID 1
+C. RAID 5
+D. RAID 10
+Answer: A
+Explanation:
+QUESTION NO: 104
+Which of the following media types is BEST for backups of very large storage systems?
+A. Blu-Ray
+B. CD-ROM
+C. DVD
+D. Tape
+Answer: D
+Explanation:
+QUESTION NO: 105
+Which of the following is an example of a MAC address?
+A. 192.17.2.1
+B. http://www.comptia.org
+C. 00-00-00-1B-02-55
+D. 4309:FD21:ACB3:0012
+Answer: C
+Explanation:
+QUESTION NO: 106
+Best business practices in IT include.
+A. always suggesting the fastest route to fix the problem.
+B. following up with a customer to verify satisfaction.
+C. always suggesting the least expensive option.
+D. offering all possible choices to a customer.
+Answer: B
+Explanation:
+QUESTION NO: 107
+Which of the following would require the need for a POTS line?
+A. Modem
+B. Router
+C. Switch
+D. Hub
+Answer: A
+Explanation:
+QUESTION NO: 108
+A technician needs to configure a wireless small office home office (SOHO) network to provide IP addresses to devices on the network. Which of the following features should be enabled?
+A. MAC filtering
+B. DHCP
+C. SSID broadcast
+D. Port forwarding
+Answer: B
+Explanation:
+QUESTION NO: 109
+A customer would like assistance with choosing the appropriate PCs for opening an Internet café. The customer explains to the technician that the PCs would only be used to search the Internet. Which of the following would the technician suggest?
+A. Thick client
+B. Gaming PC
+C. Media PC
+D. Thin client
+Answer: D
+Explanation:
+QUESTION NO: 110
+A technician is looking to install a 3.5 inch desktop hard drive into an external enclosure. Which of the following input interfaces would provide the MOST throughput for the drive?
+A. USB 2.0
+B. IEEE 1394
+C. Bi-Directional Parallel
+D. eSATA
+Answer: D
+Explanation:
+QUESTION NO: 111
+A consultant has been asked to install the brightest possible projector into an office conference room that has a lot of natural sunlight. Which of the following specifications would BEST meet the client’s needs?
+A. Highest possible resolution
+B. High lumens
+C. High contrast
+D. HDMI 1.4 compatibility
+Answer: B
+Explanation:
+QUESTION NO: 112
+In addition to power and DVI, which of the following additional connections is needed to setup a fully functional touch screen LCD monitor?
+A. USB
+B. SCSI
+C. Ethernet
+D. Parallel
+Answer: A
+Explanation:
+QUESTION NO: 113
+A technician is diagnosing a laser printer that is consistently having issues picking up paper from the first tray. Which of the following items would the technician replace FIRST?
+A. Toner
+B. Transfer belt
+C. Rollers
+D. Imaging drum
+Answer: C
+Explanation:
+QUESTION NO: 114
+Which of the following types of Ethernet should be used if a technician has no choice but to run cable along fluorescent lighting arrays in a suspended ceiling?
+A. STP
+B. RG-6
+C. PVC
+D. UTP
+Answer: A
+Explanation:
+QUESTION NO: 115
+Which of the following resolution modes, by design, provides the BEST possible visual quality on a flat screen LCD monitor?
+A. SVGA
+B. Digital
+C. XGA
+D. Native
+Answer: D
+Explanation:
+QUESTION NO: 116
+A technician needs to install an appropriate PSU into a new machine. The technician needs available power for a floppy drive, two older IDE hard disks, a single SATA hard disk, and an IDE optical drive. How many unique power connectors will the PSU need to accommodate the listed devices?
+A. 2
+B. 3
+C. 4
+D. 5
+Answer: B
+Explanation:
+QUESTION NO: 117
+The process of voltage control to limit the volume of liquid delivered is used in:
+A. laser printers.
+B. thermal printers.
+C. impact printers.
+D. inkjet printers.
+Answer: D
+Explanation:
+QUESTION NO: 118
+A technician servicing a user’s computer notices the user has a lot of desktop icons linking to inappropriate websites. Which of the following should the technician do NEXT?
+A. Report through proper channels
+B. Track the evidence
+C. Document all changes to the computer
+D. Preserve the data and device
+Answer: A
+Explanation:
+QUESTION NO: 119
+Which of the following should a technician configure on a small office home office (SOHO) wireless router so IP addresses are automatically assigned to devices on the wireless network?
+A. MAC filtering
+B. DHCP
+C. NAT
+D. DNS
+Answer: B
+Explanation:
+QUESTION NO: 120
+A technician has just installed two memory modules on a motherboard that supports DDR3 RAM with the bus speed up to 1600 MHz. The specifications of memory are DDR3 1066 MHz for one module and DDR3 1333 MHz for another. On which of the following bus speeds will the system function?
+A. 800 MHz
+B. 1000 MHz
+C. 1066 MHz
+D. 1600 MHz
+Answer: C
+Explanation:
+QUESTION NO: 121
+A customer states that since the new firewall has been installed, the customer has not been able to send email. Which of the following ports on the firewall should be checked?
+A. 21
+B. 25
+C. 110
+D. 443
+Answer: B
+Explanation:
+QUESTION NO: 122
+Which of the following can be implemented on a WAP to ensure that only certain client machines can access it?
+A. Wire encryption
+B. Disabling SSID
+C. MAC filtering
+D. Port forwarding
+Answer: C
+Explanation:
+QUESTION NO: 123
+A technician notices that the PC is not receiving an IP address. Which of the following tools would the technician use to troubleshoot the computer’s NIC?
+A. Loopback plugs
+B. ESD mat
+C. Cable tester
+D. Toner probe
+Answer: A
+Explanation:
+QUESTION NO: 124
+A client wants to store video and music in one central location and stream it to multiple devices. Which of the following would BEST fill this need?
+A. Home theater
+B. Virtualization workstation
+C. Home server
+D. Gaming
+Answer: C
+Explanation:
+QUESTION NO: 125
+A technician needs to make several patch cables. Which of the following tools would the technician use to attach the RJ-45 ends to the cables?
+A. Loopback plug
+B. Punch down
+C. Crimpers
+D. Cable tester
+Answer: C
+Explanation:
+QUESTION NO: 126
+Which of the following topologies would cause the network to be segmented if any one machine went offline?
+A. Bus
+B. Mesh
+C. Star
+D. Hybrid
+Answer: A
+Explanation:
+QUESTION NO: 127
+A standard Internet mail account receives incoming messages on which of the following ports?
+A. 80
+B. 110
+C. 143
+D. 443
+Answer: B
+Explanation:
+QUESTION NO: 128
+Which of the following encryption methods is considered easily broken and should be avoided when configuring wireless security?
+A. WEP
+B. WPA
+C. AES
+D. TKIP
+Answer: A
+Explanation:
+QUESTION NO: 129
+Which of the following special function keys might prevent a user from connecting to the Internet?
+A. Wireless
+B. Screen lock
+C. Volume
+D. Bluetooth
+Answer: A
+Explanation:
+QUESTION NO: 130
+When configuring a new hard drive for use in a hot swappable environment, which of the following connection types should be used?
+A. PATA
+B. eSATA
+C. IDE
+D. SATA
+Answer: B
+Explanation:
+QUESTION NO: 131
+Which of the following should be recommended for cooling a high-end gaming PC? (Select TWO).
+A. Power saving NIC
+B. Passive cooling
+C. Additional case fans
+D. Liquid cooling system
+E. Lower wattage power supply
+Answer: C,D
+Explanation:
+QUESTION NO: 132
+In older laptop screens, the backlight is powered by which of the following?
+A. A CCFL lamp
+B. A gas
+C. LEDs
+D. OLED
+Answer: A
+Explanation:
+QUESTION NO: 133
+An outline of an image can be viewed on a laptop screen, but it is very dim and the screen appears almost black. This can be caused by a failing. (Select TWO).
+A. inverter.
+B. LCD.
+C. plasma screen.
+D. CRT.
+E. OLED.
+Answer: A,B
+Explanation:
+QUESTION NO: 134
+The wireless antenna is typically located inside the laptop’s:
+A. rear panel.
+B. keyboard.
+C. display bezel.
+D. bottom bezel.
+Answer: C
+Explanation:
+QUESTION NO: 135
+A technician performed a clean install of Windows XP on a laptop and finds that the Bluetooth on/off switch is not working. Which of the following will BEST resolve this issue?
+A. Replacing the keyboard
+B. Installing service pack 3
+C. Reinstalling the operating system with Windows XP Media Center
+D. Installing the Bluetooth stack/driver
+Answer: D
+Explanation:
+QUESTION NO: 136
+Which of the following connection types would MOST commonly be found on a laptop to display out to an external monitor? (Select TWO).
+A. PS/2
+B. Serial
+C. VGA
+D. RCA
+E. HDMI
+Answer: C,E
+Explanation:
+QUESTION NO: 137
+A laptop running a Windows operating system has a key that is supposed to launch Internet Explorer, but is not functioning. Which of the following will resolve this?
+A. Installing Bluetooth drivers from a manufacturer’s website
+B. Installing ACPI drivers from a manufacturer’s website
+C. Installing Hotkey drivers from a manufacturer’s website
+D. Installing AHCI drivers from a manufacturer’s website
+Answer: C
+Explanation:
+QUESTION NO: 138
+Which of the following printers requires manual alignment?
+A. Laser
+B. Dot matrix
+C. Inkjet
+D. Thermal
+Answer: B
+Explanation:
+QUESTION NO: 139
+A user has a parallel printer and wants to share it on the company network. Which of the following devices would the user need?
+A. A port replicator
+B. A splitter
+C. A wireless router
+D. A print server
+Answer: D
+Explanation:
+QUESTION NO: 140
+Which of the following cable types uses a 9-pin connector?
+A. Parallel
+B. Ethernet
+C. USB
+D. Serial
+Answer: D
+Explanation:
+QUESTION NO: 141
+Which of the following has a MAXIMUM transmission speed of 10 Mbps?
+A. CAT3
+B. CAT5
+C. CAT5e
+D. CAT6
+Answer: A
+Explanation:
+QUESTION NO: 142
+Thermal paste is used between the CPU and heatsink to:
+A. make the heatsink easier to remove when replacing the CPU.
+B. aid in the transfer of energy from the CPU to the heatsink.
+C. act as a fire retardant should the CPU overheat.
+D. keep the heatsink in place on the CPU.
+Answer: B
+Explanation:
+QUESTION NO: 143
+Which of the following devices is necessary to provide power to a laptop LCD screen?
+A. PCMCIA card
+B. Backlight
+C. Inverter
+D. PCI-E card
+Answer: C
+Explanation:
+QUESTION NO: 144
+A user would like to share a local USB printer with several users in the office. Which of the following methods would BEST accomplish this?
+A. Install shared PCL drivers
+B. Install a USB hub
+C. Install a print server
+D. Enable print sharing
+Answer: D
+Explanation:
+QUESTION NO: 145
+Which of the following memory types comes in the SIMM variety?
+A. SDRAM
+B. DDR3
+C. DDR2
+D. RDRAM
+Answer: A
+Explanation:
+QUESTION NO: 146
+Which of the following would benefit MOST from the use of dual monitors?
+A. Gaming PC
+B. Home theater PC
+C. A/V editing station
+D. Thin client
+Answer: C
+Explanation:
+QUESTION NO: 147
+Which of the following cable types carries an analog video signal across three separate physical channels?
+A. Component
+B. RCA
+C. DVI-analog
+D. VGA
+Answer: A
+Explanation:
+QUESTION NO: 148
+Which of the following can ONLY be installed when a laptop is turned off and disconnected from all power sources?
+A. PCMCIA device
+B. Express card 54 device
+C. SODIMM chip
+D. USB expansion hub
+Answer: C
+Explanation:
+QUESTION NO: 149
+A technician is installing a new laser printer on a workstation that has Windows 7 Professional x86 installed. Which type of printer driver is needed to complete the installation?
+A. 16-bit
+B. 32-bit
+C. 64-bit
+D. 86-bit
+Answer: B
+Explanation:
+QUESTION NO: 150
+Before installing a new expansion card, which of the following should a technician consider? (Select TWO).
+A. CPU type
+B. Free hard drive space
+C. Power supply wattage
+D. Amount of RAM
+E. Bus type
+Answer: C,E
+Explanation:
+QUESTION NO: 151
+A technician wants to install a printer to use port LPT1, but the computer does not currently have such a port. Which of the following expansion cards should the technician install and configure to create an LPT1 port?
+A. Serial
+B. Video
+C. Audio
+D. Parallel
+Answer: D
+Explanation:
+QUESTION NO: 152
+A user wants to purchase a new computer to use word processing software only. Which of the following computer types should be recommended?
+A. Thin client
+B. CAD workstation
+C. Home server
+D. Gaming PC
+Answer: A
+Explanation:
+QUESTION NO: 153
+A user with an inkjet printer states that all their color printouts are missing red ink. The inkjet printer has a cartridge for each of the CMYK colors, and the user recently replaced the magenta cartridge. Which of the following should the technician do NEXT?
+A. Purchase a maintenance kit
+B. Use a different weighted paper
+C. Verify printer cables are connected
+D. Perform printer head cleaning
+Answer: D
+Explanation:
+QUESTION NO: 154
+A technician notices an impact printer has run out of ink. Which of the following should the technician do NEXT?
+A. Power cycle the printer
+B. Replace the ribbon
+C. Rewind the ribbon
+D. Replace the print head
+Answer: B
+Explanation:
+QUESTION NO: 155
+A technician has recently purchased a maintenance kit to be installed in a laser printer. Which of the following will be included in the maintenance kit?
+A. Pickup rollers
+B. Paper tray
+C. Toner
+D. Compressed air
+Answer: A
+Explanation:
+QUESTION NO: 156
+A technician needs to replace a desktop computer’s power supply. Which of the following should the technician do FIRST?
+A. Check for environmental concerns
+B. Review local regulations for disposal procedures
+C. Read MSDS documentation
+D. Remove watch and all jewelry
+Answer: D
+Explanation:
+QUESTION NO: 157
+Which of the following would BEST protect equipment from a brown out?
+A. HVAC system
+B. Surge suppressor
+C. UPS
+D. Power strip
+Answer: C
+Explanation:
+QUESTION NO: 158
+A technician observes another technician trying to steal a company laptop. Which of the following should the first technician do NEXT?
+A. Confront the technician stealing the laptop
+B. Preserve the laptop for evidence
+C. Report through proper channels
+D. Document the incident
+Answer: C
+Explanation:
+QUESTION NO: 159
+A user needs a new gaming computer which can be both fast and quiet. Which of the following should MOST likely be installed to meet the user’s requirements?
+A. Liquid-based cooling system
+B. Passive cooling system
+C. Thermal paste
+D. Low RPM fans
+Answer: A
+Explanation:
+QUESTION NO: 160
+Which of the following should a technician check FIRST on the laptop if the system’s battery is not being charged?
+A. CMOS battery
+B. DC-in jack
+C. AC-in jack
+D. Breaker for the wall jack
+Answer: B
+Explanation:
+QUESTION NO: 161
+A keyboard has been replaced on a laptop. Which of the following is the MOST likely cause that the keyboard does not work?
+A. The keyboard data cable was not connected properly.
+B. The keyboard is not compatible with the laptop.
+C. The keyboard needs updated drivers.
+D. The keyboard is defective.
+Answer: A
+Explanation:
+QUESTION NO: 162
+Which of the following should a technician do NEXT, if the laptop’s internal speakers do not work, after replacing the motherboard due to a video issue?
+A. Update the video drivers
+B. Replace the speakers
+C. Check the speaker’s connection to the motherboard
+D. Verify that the speakers are compatible with the replacement motherboard
+Answer: C
+Explanation:
+QUESTION NO: 163
+Which of the following is the MAIN purpose of cleaning the printer during the imaging process?
+A. It prolongs the toner cartridge’s lifecycle
+B. It takes off any residual toner left after development
+C. It keeps the printer clean and prolongs its usable life
+D. It increases the speed of the print process
+Answer: B
+Explanation:
+QUESTION NO: 164
+Which of the following computer components are located on the Northbridge? (Select TWO).
+A. Hard drive
+B. CPU
+C. Fan
+D. RAM
+E. Audio
+Answer: B,D
+Explanation:
+QUESTION NO: 165
+Which of the following can be used to change fan speeds?
+A. Device manager
+B. BIOS
+C. Power options
+D. Action center
+Answer: B
+Explanation:
+QUESTION NO: 166
+A client wants to take their old VCR tapes and put them on a DVD. Which of the following expansion cards would need to be installed in a computer to perform this task?
+A. TV tuner
+B. Video graphics
+C. Sound
+D. Video capture
+Answer: D
+Explanation:
+QUESTION NO: 167
+Which of the following 802.11 standards has the MAXIMUM throughput of 11 Mbps?
+A. A
+B. B
+C. G
+D. N
+Answer: B
+Explanation:
+QUESTION NO: 168
+Which of the following socket types is for an Intel CPU?
+A. F
+B. 940
+C. AM3
+D. 1156
+Answer: D
+Explanation:
+QUESTION NO: 169
+Which of the following socket types is for an AMD CPU?
+A. 940
+B. 775
+C. 1155
+D. 1366
+Answer: A
+Explanation:
+QUESTION NO: 170
+Which of the following cable types is MOST often found in Plain Old Telephone Service (POTS)?
+A. RG-6
+B. CAT3
+C. RG-59
+D. Multi-mode
+Answer: B
+Explanation:
+QUESTION NO: 171
+Besides the CPU, which of the following components might have their own heatsink?
+A. Audio card
+B. RAID controller
+C. Graphics card
+D. Hard drive
+Answer: C
+Explanation:
+QUESTION NO: 172
+Which of the following is the BEST type of cable to prevent EMI?
+A. STP
+B. Fiber
+C. Plenum
+D. UTP
+Answer: B
+Explanation:
+QUESTION NO: 173
+A workgroup of five PCs uses a shared printer. A customer says they cannot print to the printer but can access shares on another PC used for common files. The printer appears to be powered on. Which of the following would be the MOST likely cause of the issue?
+A. Printer PC is off network
+B. Printer is low on toner
+C. Printer needs to be restarted
+D. Device drivers are corrupted
+Answer: A
+Explanation:
+QUESTION NO: 174
+A CAD/CAM user requires faster onscreen refresh rates. Which of the following slots allows for faster graphic performance?
+A. AGP
+B. AGP x8
+C. PCIe
+D. PCI
+Answer: C
+Explanation:
+QUESTION NO: 175
+Which of the following is MOST likely to contain hazardous voltages?
+A. CD-ROM drive
+B. External USB drive
+C. Inkjet printer
+D. CRT display
+Answer: D
+Explanation:
+QUESTION NO: 176
+A technician encounters prohibited materials on a computer located in a common area that is used by several employees. Which of the following should be done FIRST?
+A. Remove the item from the computer
+B. Show to others so they can be a witness
+C. Copy the item to an external website
+D. Report the incident to management
+Answer: D
+Explanation:
+QUESTION NO: 177
+A technician is preparing to install a new wireless printer for use in an environment with several wireless networks installed. Which will be used to determine the wireless network that the printer will be available from?
+A. DNS
+B. SSID
+C. WPA
+D. VPN
+Answer: B
+Explanation:
+QUESTION NO: 178
+Which of the following RAM modules has a PC rating of 10600?
+A. DDR
+B. SDRAM
+C. DDR3
+D. DDR2
+Answer: C
+Explanation:
+QUESTION NO: 179
+Which of the following types of RAM is typically used to improve reliability?
+A. Double sided
+B. ECC
+C. SODIMM
+D. RDRAM
+Answer: B
+Explanation:
+QUESTION NO: 180
+Which of the following uses Intel’s core i CPUs? (Select TWO).
+A. F
+B. 1366
+C. 775
+D. 1155
+E. AM3
+Answer: B,D
+Explanation:
+QUESTION NO: 181
+Which of the following hard drives has the BEST shock resistance?
+A. IDE
+B. NAS
+C. SATA
+D. SSD
+Answer: D
+Explanation:
+QUESTION NO: 182
+Which of the following communication standards requires line-of-site with no obstacles in order to operate properly?
+A. Bluetooth
+B. IR
+C. RF
+D. WiFi
+Answer: B
+Explanation:
+QUESTION NO: 183
+Which of the following connectors is found on every desktop power supply?
+A. Berg
+B. SATA
+C. PCIe
+D. Molex
+Answer: D
+Explanation:
+QUESTION NO: 184
+A customer asked the technician to upgrade the RAM in a laptop. Upon inspection of the RAM bay, the technician only found one RAM slot, however the laptop is specified to have two. Where would the other memory slot be typically located?
+A. Inside the display bezel
+B. Second hard drive bay
+C. Above the PC card slot
+D. Under the keyboard
+Answer: D
+Explanation:
+QUESTION NO: 185
+A laptop is not charging the battery and occasionally shuts off even when the power cord is plugged in. This is a symptom of a bad:
+A. DC jack.
+B. hard drive.
+C. cooling system.
+D. battery.
+Answer: A
+Explanation:
+QUESTION NO: 186
+Which of the following typically cannot be upgraded in a laptop?
+A. Video card
+B. Hard drive
+C. RAM
+D. Wireless card
+Answer: A
+Explanation:
+QUESTION NO: 187
+A user calls the helpdesk because a solution that was previously suggested by another technician did not solve the user’s issue. Which of the following is the MOST appropriate response?
+A. “Please hold while I transfer you to the previous technician, so a proper solution can be met.”
+B. “Please explain the issue and I will work to resolve it.”
+C. “My supervisor is the appropriate person to speak with about your issue.”
+D. “Let me help you to resolve this issue, since that technician does not know how to fix it.”
+Answer: B
+Explanation:
+QUESTION NO: 188
+A user calls to report that a notice keeps appearing on their screen whenever they try to pull down video clips from a website. The notice says “This category is being blocked because it is streaming media. Please click continue to use your assigned quota time”. The technician is aware that a new web filtering application was recently implemented which assigns a 120 minute quota on streaming media and a message appears allowing the user to continue. Which of the following is the BEST response for the technician to give the user?
+A. “If you read the entire notice screen it clearly states that you should click continue. Did you read
+the entire notice?”
+B. “Since video takes a large amount of bandwidth, management has implemented a policy to limit
+what each user can download and watch.”
+C. “A new application was introduced to help improve and manage the network. The video should
+appear once you select continue on the message.”
+D. “Are these video clips work related? What specific website are you trying to download the
+videos from?”
+Answer: C
+Explanation:
+QUESTION NO: 189
+Since calling in an issue two days ago, a user reports that they have not heard from a help desk technician. Which of the following is the MOST appropriate response?
+A. Let the user know that there is no record of the initial call.
+B. Let the user know that the problem will be escalated immediately.
+C. Let the user know that the technician will be out to resolve the problem tomorrow.
+D. Close the initial ticket that was issued and open a new help desk ticket for the user.
+Answer: B
+Explanation:
+QUESTION NO: 190
+After responding immediately to a dispatch, a technician arrives to resolve the customer’s issue. The customer appears to be angry that they have waited so long for a response. Which of the following is the BEST course of action for the technician to take?
+A. Inform the manager of the customer’s behavior and then focus on completing the task in an
+expedited manner.
+B. Empathize with the customer’s urgency and inform them that the current service level
+agreement allows for an eight hour response time.
+C. Empathize with the customer and focus on completing the task in an expedited manner. Upon
+closure, document the situation and inform the manager.
+D. Contact dispatch immediately and request to speak to a manager to determine the breakdown
+in the response time.
+Answer: C
+Explanation:
+QUESTION NO: 191
+A technician realizes the problem a customer is having before the customer is done explaining all the symptoms. Which of the following is the BEST action for the technician to take?
+A. Continue listening to the customer’s explanation until they are finished then refer them to a
+website so the customer can find the proper resolution.
+B. Ask the customer to repeat the problem and all the symptoms several times in order for the
+technician to verify all the facts.
+C. Finish listening to the customer’s explanation without interrupting if it will not take an excessive
+amount of time.
+D. Politely tell the customer that the technician knows the proper solution and that no further
+explanation is necessary.
+Answer: C
+Explanation:
+QUESTION NO: 192
+Which of the following is the FIRST step a technician should take to replace a network printer?
+A. Unplug the network printer then notify users.
+B. Notify all users before unplugging the printer.
+C. Save all print jobs, replace the printer and print all saved files.
+D. Delete all print jobs before replacing the printer.
+Answer: B
+Explanation:
+QUESTION NO: 193
+In which of the following situations is it appropriate for an IT service provider to make copies of a customer’s confidential data?
+A. If the technician determines it necessary, for backup purposes
+B. It is never appropriate to copy a customer’s data
+C. If the content is public knowledge
+D. With the customer’s permission, for backup purposes
+Answer: D
+Explanation:
+QUESTION NO: 194
+Which of the following is the proper way to remove a PCMCIA card from a laptop running Windows XP?
+A. Click on the safely remove hardware icon, stop the device, and remove the card
+B. Push the eject button on the card slot
+C. Grasp the card firmly and slowly pull it from the slot on the laptop
+D. In the Control Panel, stop the device service, and then remove the card
+Answer: A
+Explanation:
+QUESTION NO: 195
+Which of the following components would MOST likely be utilized in a virtualization server? (Select TWO).
+A. Maximum memory
+B. High-end sound card
+C. High-end video card
+D. Dual-rail 1000w PSU
+E. Quad core CPU
+Answer: A,E
+Explanation:
+QUESTION NO: 196
+A surge suppressor is only capable of providing protection against which of the following environmental hazards?
+A. Electrostatic discharge
+B. Power blackouts
+C. Power spikes
+D. Power brown outs
+Answer: C
+Explanation:
+QUESTION NO: 197
+Which of the following expansion cards would provide support for additional internal storage?
+A. Video capture
+B. Modem
+C. USB port
+D. RAID controller
+Answer: D
+Explanation:
+QUESTION NO: 198
+In a laser printer, which of the following components uses heat to apply the toner onto the page?
+A. Fuser assembly
+B. Pickup roller
+C. Transfer roller
+D. Imaging drum
+Answer: A
+Explanation:
+QUESTION NO: 199
+A technician is trying to connect the high-end 5.1 surround sound audio system to their Home Theater PC. Front and rear channels produce the sound but the subwoofer and the front speaker seem to be muted. Which of the following would the technician MOST likely check to resolve the issue?
+A. The power cable of the 5.1 surround sound audio system.
+B. The subwoofer and the front channel speaker drivers are installed properly.
+C. The subwoofer and the front channel speakers are not defective.
+D. The subwoofer and the front channel speaker’s RCA cable connection to the computer’s audio
+card.
+Answer: D
+Explanation:
+QUESTION NO: 200
+Which of the following panel types consumes the MOST power?
+A. Plasma
+B. LCD
+C. LED with no backlight
+D. LED with backlight
+Answer: A
+Explanation:
+QUESTION NO: 201
+Which of the following needs to be configured on a wireless router to allow specific client machines to connect?
+A. Port forwarding
+B. WPS
+C. MAC filtering
+D. DMZ
+Answer: C
+Explanation:
+QUESTION NO: 202
+A user is suspected of engaging in prohibited activity on their workstation. Which of the following should be done FIRST?
+A. Inform a supervisor or management.
+B. Disable network access for the user.
+C. Search the workstation for evidence.
+D. Call the authorities to question the user.
+Answer: A
+Explanation:
+QUESTION NO: 203
+Which of the following is required in order for BitLocker to be enabled?
+A. Drive encryption
+B. Group Policy
+C. Trusted platform module
+D. Power-on Password
+Answer: C
+Explanation:
+QUESTION NO: 204
+Which of the following networking standards can operate at two different channel widths on the same spectrum simultaneously?
+A. 802.11a
+B. 802.11b
+C. 802.11g
+D. 802.11n
+Answer: D
+Explanation:
+QUESTION NO: 205
+Which of the following describes the process laser printers use to secure toner to paper?
+A. Bonding
+B. Transferring
+C. Duplexing
+D. Fusing
+Answer: D
+Explanation:
+QUESTION NO: 206
+Which of the following will provide the FASTEST boot times for a laptop user?
+A. Solid state drive
+B. High capacity battery
+C. eSATA hard drive
+D. Increased RAM
+Answer: A
+Explanation:
+QUESTION NO: 207
+Which of the following media has a capacity of 8.6 GB?
+A. CD
+B. DL DVD
+C. DL Blu-ray
+D. DVD
+Answer: B
+Explanation:
+QUESTION NO: 208
+Which of the following devices is MOST likely to outperform a 15,000 rpm SAS hard drive in read speed?
+A. Compact flash
+B. SSD
+C. Tape
+D. SD
+Answer: B
+Explanation:
+QUESTION NO: 209
+The technician has identified prohibited content on a PC. Which of the following would be the FIRST action that the technician should take?
+A. Walk away
+B. Turn off the PC
+C. Report it
+D. Search for more
+Answer: C
+Explanation:
+QUESTION NO: 210
+A customer would like to upgrade their onboard fast Ethernet connection to connect to their new gigabit network at the gigabit speed. Which of the following will enable them to do so?
+A. Convert the user to wireless.
+B. Install a 10/100/1000 NIC.
+C. Update the drivers for the onboard port.
+D. Flash the BIOS to unlock the Ethernet port.
+Answer: B
+Explanation:
+QUESTION NO: 211
+A technician needs to access the system BIOS at boot time on a PC. Which of the following are possible BIOS access keys? (Select TWO).
+A. F2
+B. F12
+C. F8
+D. Delete
+E. Function – F4
+F. Control – Home
+Answer: A,D
+Explanation:
+QUESTION NO: 212
+A customer reports that their 4-year-old PC takes a long time to boot. The technician investigates and finds the BIOS is rediscovering the hardware environment at every boot. Which of the following will MOST likely fix this problem?
+A. Change out the CMOS battery on the motherboard.
+B. At the OS level, launch “Device Manager” and re-scan the hardware.
+C. Hit “F9” while the computer is booting, but before the OS starts to load.
+D. Reset the BIOS using the CMOS reset jumper.
+Answer: A
+Explanation:
+QUESTION NO: 213
+A technician installs a biometric device using the manufacturer supplied driver. After confirming the device functions properly, the technician performs Windows and antivirus updates. Which of the following would BEST explain why the biometric device no longer functions?
+A. The recently updated antivirus scanning software is interfering with the proper operations of the
+biometric device.
+B. A virus that specifically targets retinal scanning software infected the PC because the user was
+late applying new definitions.
+C. The recently installed Windows updates overwrote the manufacturer’s supplied biometric
+device driver.
+D. The biometric device needs to be recalibrated due to environmental conditions involved with the
+installation.
+Answer: C
+Explanation:
+QUESTION NO: 214
+Which of the following describes the MAIN difference between a plenum rated cable versus a nonplenum rated cable?
+A. A reduced production of hazardous fumes when subjected to fire
+B. The ability to be bent into tighter turning radiuses within conduit
+C. A reduced noise level when bundled in groups of 20 or more
+D. The ability to transmit data with fewer cross-talk interruptions
+Answer: A
+Explanation:
+QUESTION NO: 215
+Which of the following describes the function of a hub in a network?
+A. Broadcasts packets it receives to specific connections
+B. Determines whether a packet belongs on an internal or external network
+C. Converts a packet for transmission from one network to another network
+D. Broadcasts packets it receives to all connections
+Answer: D
+Explanation:
+QUESTION NO: 216
+Which of the following describes the function of a switch in a network?
+A. Transmits packets it receives to specific connections
+B. Converts a packet for transmission from one network to another network
+C. Determines whether a packet belongs on an internal or external network
+D. Broadcasts packets it receives to all connections
+Answer: A
+Explanation:
+QUESTION NO: 217
+A technician is repairing a printer in the payroll department that includes employees’ sensitive information. Which of the following should the technician do with the printed sensitive information documents that were used for testing?
+A. Keep printed items for future reference.
+B. Shred the printed documents.
+C. Leave the documents on the printer.
+D. Recycle all printed documents.
+Answer: B
+Explanation:
+QUESTION NO: 218
+A technician has replaced a riser inside a server and the riser is failing again after reboot. Which of the following should have been used when initially replacing the riser?
+A. Compressed air
+B. Vacuum cleaner
+C. Proper cable management
+D. ESD mat
+Answer: D
+Explanation:
+QUESTION NO: 219
+Which of the following video types has a DB-15 connector?
+A. S-video
+B. DVI-A
+C. DVI-D
+D. VGA
+Answer: D
+Explanation:
+QUESTION NO: 220
+Which of the following connectors would terminate a POTS connection?
+A. BNC
+B. F
+C. RJ-45
+D. RJ-11
+Answer: D
+Explanation:
+QUESTION NO: 221
+A user wants to secure their home wireless network and allow only certain devices access to the network. Which of the following measures would be the MOST effective means of limiting access?
+A. Turn off DHCP
+B. Use MAC filtering
+C. Disable DMZ
+D. Turn off SSID broadcasting
+Answer: B
+Explanation:
+QUESTION NO: 222
+Which of the following features of a CPU socket is designed to make installation of a CPU easier?
+A. Plug and Play
+B. Lower latency
+C. Zero insertion force
+D. Heatsinks
+Answer: C
+Explanation:
+QUESTION NO: 223
+Which of the following connection types is MOST likely to be used to connect an internal hard drive to a computer?
+A. IDE
+B. DVI
+C. Parallel
+D. eSATA
+Answer: A
+Explanation:
+QUESTION NO: 224
+Which of the following voltages is MOST likely to be supplied from a PC power supply unit? (Select TWO).
+A. 1V
+B. 1.7V
+C. 3.3V
+D. 5V
+E. 9V
+Answer: C,D
+Explanation:
+QUESTION NO: 225
+Which of the following does a technician need to do before giving a PC, which has been confiscated for prohibited activity, to another department?
+A. Identify prohibited activity on PC
+B. Document change of custody
+C. Report prohibited activity
+D. Preserve data
+Answer: B
+Explanation:
+QUESTION NO: 226
+Which of the following is the BEST example of the use of chain of custody?
+A. Technician uses a third party to hand over the PC to the proper authority.
+B. Technician remembers when and who they gave the PC to.
+C. Technician calls supervisor after PC has been transferred.
+D. Technician notes the date, time and who was given the PC.
+Answer: D
+Explanation:
+QUESTION NO: 227
+Which of the following should be considered when building a standard PC?
+A. Capacity of the hard drive
+B. RAID level that will be used
+C. Requirements for applications
+D. Amount of RAM
+Answer: C
+Explanation:
+QUESTION NO: 228
+A technician is working on a PC but does not have their grounding strap. Which of the following would be the BEST method the technician should use to ground themselves?
+A. Hold the metal of the case
+B. Hold on to the power cord
+C. Take off their shoes
+D. Unplug the PC
+Answer: A
+Explanation:
+QUESTION NO: 229
+A customer states their inkjet printer is not printing as clearly as it once did. The technician should FIRST perform which of the following functions to rectify this?
+A. Replace ink packs
+B. Calibrate the printer
+C. Use a different type of paper
+D. Replace the USB cable
+Answer: B
+Explanation:
+QUESTION NO: 230
+A supervisor has asked a technician to share the multifunction device that is directly connected to a PC. The PC is running Windows XP Professional. Which of the following steps are valid options to allow the technician to complete this task?
+A. Type “appwiz.cpl” at the run line and install the printer as a shared device.
+B. Start >All Programs >Control Panel >Network Connections >Right click on desired printer and
+go to “Sharing”. Select the option to share the printer and give it a share name.
+C. Start >All Programs >Control Panel >Scanners and Cameras >Right click on desired device
+and go to “Sharing”. Select the option to share the device and give it a share name.
+D. Start >All Programs >Control Panel >Printers and Faxes >Right click on desired printer and go
+to “Sharing”. Select the option to share the printer and give it a share name.
+Answer: D
+Explanation:
+QUESTION NO: 231
+A customer has asked a technician to install a new USB printer that is supported by Windows 7. The PC is running Windows 7 Professional. Which of the following is the correct method to complete the installation?
+A. Connect the new USB printer and power it on. Windows 7 will automatically detect and add the
+new printer.
+B. Add the printer driver to the %SystemDir%\System32\Drivers folder, then connect and power
+on the printer.
+C. Click Start >All Programs >Control Panel >Printers and Faxes >Right click on desired printer
+and select “install”.
+D. Configure the BIOS to boot from USB devices first. Connect and power on the printer. Boot the
+computer.
+Answer: A
+Explanation:
+QUESTION NO: 232
+A corporate technician has been tasked with providing a thin client PC for a new employee. Which of the following configurations would be the MOST appropriate?
+A. A PC with the maximum amount of supported RAM
+B. A PC equipped with high end audio and video cards
+C. A PC that meets the minimum requirements for running an OS
+D. A PC with the most powerful processor
+Answer: C
+Explanation:
+QUESTION NO: 233
+A user’s laptop screen is extremely dim. A technician attempts to alter the brightness using function keys and the BIOS, but the screen never changes in brightness. Which of the following is MOST likely the cause?
+A. Battery failure
+B. Bulb failure
+C. Display driver is corrupted
+D. Backlight failure
+Answer: D
+Explanation:
+QUESTION NO: 234
+Which of the following expansion slots is characterized by having an x16 speed?
+A. CNR
+B. PCI
+C. PCIe
+D. AGP
+Answer: C
+Explanation:
+QUESTION NO: 235
+Which of the following settings is controlled by jumpers?
+A. Chassis detection threshold
+B. Fan speed
+C. USB voltage
+D. Drive hierarchy
+Answer: D
+Explanation:
+QUESTION NO: 236
+Which of the following is a benefit of using ECC memory?
+A. Corrects memory errors
+B. Allows 64-bit operating systems
+C. Prevents disk errors
+D. Uses lower voltage
+Answer: A
+Explanation:
+QUESTION NO: 237
+Which of the following connection types has the LONGEST transmission limitation in terms of distance?
+A. USB 3.0
+B. CAT6
+C. Fiber
+D. CAT5
+Answer: C
+Explanation:
+QUESTION NO: 238
+An administrator wants to prevent people outside of the building from accessing a new wireless router. Which of the following is the LEAST labor intensive method to use while setting up new workstations?
+A. Turn SSID broadcast off
+B. Use wireless encryption
+C. Institute MAC filtering
+D. Setup static IP addresses
+Answer: A
+Explanation:
+QUESTION NO: 239
+A network consisting of numerous geographically dispersed networks that cover a large physical distance is referred to as a:
+A. WLAN.
+B. LAN.
+C. WAN.
+D. MAN.
+Answer: C
+Explanation:
+QUESTION NO: 240
+Which of the following Internet connection types would be MOST commonly used by a customer who travels frequently?
+A. ISDN
+B. Satellite
+C. Cellular
+D. Line of site wireless
+Answer: C
+Explanation:
+QUESTION NO: 241
+Which of the following has the FASTEST connection speed?
+A. Cable
+B. Dial-Up
+C. ISDN
+D. WiMAX
+Answer: A
+Explanation:
+QUESTION NO: 242
+For best performance, a high-end graphics card should be installed in which of the following slots?
+A. PCIe x16
+B. AGP 4x
+C. PCI x2
+D. PCI
+Answer: A
+Explanation:
+QUESTION NO: 243
+A motherboard contains four memory slots. Two of the slots are colored blue and two of the slots are colored black. Which of the following would be the correct way to populate memory in the slots for best performance?
+A. Slower memory in both blue slots and faster memory in both black slots
+B. Memory that matches in speed and size in either both blue slots and both black slots
+C. Faster memory in both blue slots and slower memory in both black slots
+D. Place memory in either both black slots or both blue slots but not both at the same time
+Answer: B
+Explanation:
+QUESTION NO: 244
+Which of the following RAM types are compatible with PC2700 and maintain the same performance?
+A. PC 2400
+B. PC 3200
+C. PC2 4200
+D. PC2 5300
+Answer: B
+Explanation:
+QUESTION NO: 245
+Which of the following should be the FIRST items to be removed when replacing the system board on a laptop? (Select TWO).
+A. Keyboard
+B. Battery
+C. LCD
+D. Palm rest
+E. AC power adapter
+Answer: B,E
+Explanation:
+QUESTION NO: 246
+A user states that when printing to a shared printer nothing happens and the user has verified that the printer is turned on. Which of the following is the MOST likely cause?
+A. The print server does not have network connectivity.
+B. The ISP service is currently not available.
+C. The user’s print drivers are corrupted.
+D. The printer is low on toner.
+Answer: A
+Explanation:
+QUESTION NO: 247
+A technician is helping set up a new networking closet and notices that the humidity level is low in the room. Which of the following should be installed FIRST before rack mounting equipment?
+A. A dehumidifier
+B. A fire suppression system
+C. ESD strap
+D. Grounding bars
+Answer: D
+Explanation:
+QUESTION NO: 248
+Which of the following is MOST likely needed when installing a new POS thermal printer?
+A. RJ-11
+B. Operating system disk
+C. RG-58
+D. Drivers
+Answer: D
+Explanation:
+QUESTION NO: 249
+Which of the following laptop display types relies on a backlight for the display presentation?
+A. LCD
+B. LED
+C. CRT
+D. Plasma
+Answer: A
+Explanation:
+QUESTION NO: 250
+Which of the following connection types is MOST commonly used to connect external hard drives to a PC? (Select TWO).
+A. SATA
+B. PATA
+C. IDE
+D. eSATA
+E. USB
+Answer: D,E
+Explanation:
+QUESTION NO: 251
+Which of the following BEST represents a hardware requirement for building a PC that will specialize in gaming? (Select TWO).
+A. Large hard drive space
+B. Specialized cooling
+C. HDMI output
+D. TV tuner
+E. High-end graphics card
+Answer: B,E
+Explanation:
+QUESTION NO: 252
+Which of the following BEST represents a hardware requirement for building a PC that will specialize in being a Home Server? (Select TWO).
+A. Virtualization support
+B. Touch screen interface
+C. Gigabit Ethernet
+D. RAID array
+E. Dual monitors
+Answer: C,D
+Explanation:
+QUESTION NO: 253
+In reference to express card types (e.g. Express Card 34 and Express Card 54), which of the following BEST describes what the numbers indicate?
+A. Size of the memory allocation
+B. Size of the expansion slot
+C. The IEEE specification that it originated from
+D. Number of available communication channels
+Answer: B
+Explanation:
+QUESTION NO: 254
+Which of the following is LEAST likely to be considered a consumer replaceable part in a laptop?
+A. RAM
+B. LCD screen
+C. Optical drive
+D. Hard drive
+Answer: B
+Explanation:
+QUESTION NO: 255
+Which of the following wireless networking standards operates at the SHORTEST distance?
+A. 802.11a
+B. 802.11b
+C. 802.11g
+D. 802.11n
+Answer: A
+Explanation:
+QUESTION NO: 256
+Which of the following speeds BEST represents the speed of the memory when installing DDR2 at 800 MHz and DDR2 at 600 MHz?
+A. 600 MHz
+B. 700 MHz
+C. 800 MHz
+D. 1400 MHz
+Answer: A
+Explanation:
+QUESTION NO: 257
+Which of the following RAM types is LEAST likely to work optimally when installed in dual channel mode?
+A. SDRAM
+B. RAMBUS
+C. DDR2
+D. DDR3
+Answer: A
+Explanation:
+QUESTION NO: 258
+Which of the following would a technician MOST likely upgrade on a laptop?
+A. Video card
+B. RAM
+C. Wireless antenna
+D. LCD screen
+Answer: B
+Explanation:
+QUESTION NO: 259
+Which of the following are characteristics of transferring data using fiber as the medium? (Select TWO).
+A. Fiber can transmit data the farthest distance without requiring a repeater
+B. Fiber is the least susceptible to EMI
+C. Fiber is the most susceptible to changes in temperature and humidity, which can cause varyingtransmission speeds
+D. Fiber can transmit power as well as data, which will lead to cost savings
+E. Fiber is the least expensive means of transmitting data
+Answer: A,B
+Explanation:
+QUESTION NO: 260
+A technician documents the findings of illegal material that was found on a workstation. Which of the following should the technician do NEXT when storing the workstation?
+A. Set all users to administrators
+B. Destroy the hard drive
+C. Reimage the workstation and deploy
+D. Adhere to the chain of custody
+Answer: D
+Explanation:
+QUESTION NO: 261
+A company is receiving a large number of laptop theft reports in the corporate buildings. Which of the following is the MOST cost-efficient way to discourage theft of laptops?
+A. A CCTV system
+B. A cable lock
+C. A badge reader
+D. A retina scanner
+Answer: B
+Explanation:
+QUESTION NO: 262
+A user states that the display is not very bright on their laptop. Which of the following is the MOST likely location to adjust the brightness?
+A. In the Device Manager of the operating system
+B. In the BIOS
+C. Fn key
+D. In the video display drivers
+Answer: C
+Explanation:
+QUESTION NO: 263
+Which of the following would a technician MOST likely perform to prevent a tripping hazard?
+A. Use an ESD mat
+B. Proper cable management
+C. Use plenum graded cable
+D. Proper documentation
+Answer: B
+Explanation:
+QUESTION NO: 264
+A new security flaw and fix has been published about a laptop's OS. Which of the following can be implemented to prevent exploitation?
+A. Enable screen lock
+B. Patching policy
+C. User training
+D. Enable hard drive encryption
+Answer: B
+Explanation:
+QUESTION NO: 265
+Which of the following cable types has a MAXIMUM transmission rate of 100 Mb?
+A. CAT3
+B. CAT5
+C. CAT5e
+D. CAT6
+Answer: B
+Explanation:
+QUESTION NO: 266
+Which of the following cable types is commonly used for analog/digital television transmission?
+A. UTP
+B. CAT3
+C. RG-6
+D. SC
+Answer: C
+Explanation:

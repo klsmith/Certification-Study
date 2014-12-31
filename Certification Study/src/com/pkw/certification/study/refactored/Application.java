@@ -7,6 +7,7 @@ import com.pkw.certification.study.refactored.view.MainPanel;
 public class Application {
 
 	public static void main(String[] args) {
+		System.out.println("Starting...");
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);

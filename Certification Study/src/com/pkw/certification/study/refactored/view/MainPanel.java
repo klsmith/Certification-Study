@@ -29,7 +29,7 @@ public class MainPanel extends JPanel {
 		layout = new BorderLayout();
 		setLayout(layout);
 		selector = ProblemImporter//
-				.createWithPath("assets/input.txt")//
+				.createWithPath("/com/pkw/certification/study/assets/input.txt")//
 				.importProblems().selector();
 		selector.addMoveListener(new MoveListener() {
 			@Override

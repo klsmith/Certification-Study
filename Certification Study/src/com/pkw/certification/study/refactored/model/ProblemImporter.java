@@ -1,10 +1,9 @@
 package com.pkw.certification.study.refactored.model;
 
 import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,7 +16,7 @@ public class ProblemImporter {
 	private static final String EXPLANATION_PREFIX = "Explanation:";
 	private static final String CORRECT_ANSWER_PREFIX = "Answer:";
 	private static final int FIRST_CHAR = 0;
-	private File file;
+	private InputStream stream;
 	private BufferedReader reader;
 	private String currentLine;
 
@@ -26,16 +25,12 @@ public class ProblemImporter {
 	}
 
 	private ProblemImporter(String path) {
-		file = new File(path);
+		stream = this.getClass().getResourceAsStream(path);
 		currentLine = "";
 	}
 
 	private void setupReader() {
-		try {
-			reader = new BufferedReader(new FileReader(file));
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		}
+		reader = new BufferedReader(new InputStreamReader(stream));
 	}
 
 	public ProblemList importProblems() {
