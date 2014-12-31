@@ -15,8 +15,10 @@ public class ProblemImporterTester {
 
 	@Test
 	public void testProblemImport() {
-		ProblemList imported = ProblemImporter.createWithPath(
-				"assets/test-one-question-input.txt").importProblems();
+		ProblemList imported = ProblemImporter
+				.createWithPath(
+						"/com/pkw/certification/study/assets/test-one-question-input.txt")
+				.importProblems();
 		ProblemList expected = ProblemList.create();
 		expected.add(FIRST.problem());
 
@@ -25,8 +27,10 @@ public class ProblemImporterTester {
 
 	@Test
 	public void testSecondProblemImport() {
-		ProblemList imported = ProblemImporter.createWithPath(
-				"assets/test-four-question-input.txt").importProblems();
+		ProblemList imported = ProblemImporter
+				.createWithPath(
+						"/com/pkw/certification/study/assets/test-four-question-input.txt")
+				.importProblems();
 		ProblemList expected = ProblemList.create();
 		expected.add(FIRST.problem());
 		expected.add(SECOND.problem());

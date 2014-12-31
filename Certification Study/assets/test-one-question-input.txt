@@ -1,8 +1,0 @@
-QUESTION NO: 1
-Which of the following is a public IP address?
-A. 10.0.0.1
-B. 62.10.1.1
-C. 172.16.0.1
-D. 192.168.1.1
-Answer: B
-Explanation:
