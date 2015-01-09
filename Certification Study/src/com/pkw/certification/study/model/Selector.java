@@ -77,4 +77,5 @@ public class Selector<E> {
 	public static abstract class MoveListener {
 		public abstract void onMove();
 	}
+
 }

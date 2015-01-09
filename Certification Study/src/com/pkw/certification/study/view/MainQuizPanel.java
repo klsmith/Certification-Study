@@ -13,18 +13,18 @@ import com.pkw.certification.study.model.ProblemImporter;
 import com.pkw.certification.study.model.Selector;
 import com.pkw.certification.study.model.Selector.MoveListener;
 
-public class MainPanel extends JPanel {
+public class MainQuizPanel extends JPanel {
 	private static final long serialVersionUID = 934364967952571204L;
 
 	private JFrame frame;
 	private BorderLayout layout;
 	private Selector<Problem> selector;
 
-	public static MainPanel createIn(JFrame frame) {
-		return new MainPanel(frame);
+	public static MainQuizPanel createIn(JFrame frame) {
+		return new MainQuizPanel(frame);
 	}
 
-	private MainPanel(JFrame frame) {
+	private MainQuizPanel(JFrame frame) {
 		this.frame = frame;
 		layout = new BorderLayout();
 		setLayout(layout);
