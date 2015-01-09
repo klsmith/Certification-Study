@@ -1,4 +1,4 @@
-package com.pkw.certification.study.refactored.model;
+package com.pkw.certification.study.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,8 +9,8 @@ import javax.swing.BoxLayout;
 import javax.swing.ButtonGroup;
 import javax.swing.JPanel;
 
-import com.pkw.certification.study.refactored.model.Answer.Button;
-import com.pkw.certification.study.refactored.model.Answer.Letter;
+import com.pkw.certification.study.model.Answer.Button;
+import com.pkw.certification.study.model.Answer.Letter;
 
 public class AnswerGroup {
 
