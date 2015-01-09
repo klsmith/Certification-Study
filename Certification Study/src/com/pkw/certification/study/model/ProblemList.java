@@ -186,7 +186,7 @@ public class ProblemList implements List<Problem> {
 		return result;
 	}
 
-	public Selector<Problem> selector() {
+	public Selector<Problem> getSelector() {
 		return new Selector<Problem>(this);
 	}
 }

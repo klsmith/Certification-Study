@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Selector<E> {
 
-	private List<MoveListener> listeners;
+	private List<OnSelectListener> listeners;
 	private List<E> list;
 	private int index;
 
 	public Selector(List<E> list) {
 		this.list = list;
-		listeners = new ArrayList<MoveListener>();
+		listeners = new ArrayList<OnSelectListener>();
 	}
 
 	public void moveToNext() {
@@ -20,7 +20,7 @@ public class Selector<E> {
 		} else {
 			goUp();
 		}
-		onMove();
+		onSelect();
 	}
 
 	private boolean isAtTopBounds() {
@@ -41,7 +41,7 @@ public class Selector<E> {
 		} else {
 			goDown();
 		}
-		onMove();
+		onSelect();
 	}
 
 	private boolean isAtBottomBounds() {
@@ -64,18 +64,18 @@ public class Selector<E> {
 		return list;
 	}
 
-	public void addMoveListener(MoveListener listener) {
+	public void addOnSelectListener(OnSelectListener listener) {
 		listeners.add(listener);
 	}
 
-	private void onMove() {
-		for (MoveListener listener : listeners) {
-			listener.onMove();
+	private void onSelect() {
+		for (OnSelectListener listener : listeners) {
+			listener.onSelect();
 		}
 	}
 
-	public static abstract class MoveListener {
-		public abstract void onMove();
+	public static abstract class OnSelectListener {
+		public abstract void onSelect();
 	}
 
 }
