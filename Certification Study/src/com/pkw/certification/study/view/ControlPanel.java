@@ -12,11 +12,18 @@ import com.pkw.certification.study.model.Selector;
 public class ControlPanel extends JPanel {
 	private static final long serialVersionUID = -8714212184565466822L;
 
-	public static ControlPanel with(Selector<Problem> selector) {
-		return new ControlPanel(selector);
+	public static ControlPanel createFor(Selector<Problem> selector) {
+		return new ControlPanel().setSelector(selector);
 	}
 
-	private ControlPanel(final Selector<Problem> selector) {
+	public static ControlPanel create() {
+		return new ControlPanel();
+	}
+
+	private ControlPanel() {
+	}
+
+	public ControlPanel setSelector(final Selector<Problem> selector) {
 		JButton previous = new JButton("Previous");
 		previous.addActionListener(new ActionListener() {
 			@Override
@@ -33,5 +40,6 @@ public class ControlPanel extends JPanel {
 		});
 		add(previous);
 		add(next);
+		return this;
 	}
 }
